@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: reference_backup_policies.html 
+keywords: netapp, saas backup, salesforce, managing, backups, backup, policies, tier, tiers 
+summary: SaaS Backup for Salesforce를 사용하여 데이터를 백업할 수 있습니다. 
+---
+= 백업 정책
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce에는 3개의 미리 정의된 백업 정책 계층이 있습니다. 이러한 정책 계층은 백업 빈도와 데이터 보존 기간에 따라 다릅니다. 운영 인스턴스는 계층 1 정책으로만 보호할 수 있습니다. sandbox 인스턴스는 계층 2 및 계층 3 정책으로 보호할 수 있습니다.
+
+Active * 상태의 백업 정책은 백업에 항목이 할당된 정책입니다. 비활성 * 상태인 백업 정책에는 백업을 위해 할당된 항목이 없습니다.
+
+|===
+| 백업 정책 | 백업 빈도 | 기본 데이터 보존 기간 | 보호 가능 
+
+
+| 계층 1 | 12시간마다 한 번 | 3년 | 운영 인스턴스 
+
+
+| 계층 2 | 18시간마다 한 번 | 2년 | sandbox 인스턴스 
+
+
+| 계층 3 | 24시간마다 한 번 | 2년 | sandbox 인스턴스 
+
+
+| 보호되지 않음 | 백업되지 않았습니다 | 백업되지 않았습니다 | 생산 및 Sandbox 인스턴스 
+|===

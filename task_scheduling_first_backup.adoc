@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: scheduling_first_backup.html 
+keywords: netapp, saas backup, salesforce, moving, organization, different, backup, tier 
+summary: Sandbox 또는 운영 인스턴스의 데이터가 보호된 후에는 언제든지 다른 백업 계층으로 이동하도록 선택할 수 있습니다. 
+---
+= 백업 예약 또는 백업 빈도 변경
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce에 Sandbox 인스턴스를 추가하는 경우 기본적으로 Sandbox의 모든 데이터는 보호된 백업 계층으로 수동으로 이동할 때까지 보호되지 않습니다. Sandbox 또는 운영 인스턴스의 데이터가 보호된 후에는 언제든지 다른 백업 계층으로 이동하도록 선택할 수 있습니다.
+
+.단계
+. 왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다.
++
+image:services.jpg[""]
+
+. 운영 인스턴스에서 조직을 이동하려면 * 운영 인스턴스 * 를 클릭합니다.
++
+image:production_instances.gif[""]Sandbox 인스턴스에서 조직을 이동하려면 * Sandbox 인스턴스 * 를 클릭합니다.
+
++
+image:sandbox_instances.gif[""]
+
+. 이동할 조직의 올바른 인스턴스 범주를 선택합니다.
++
+** 이동하려는 조직이 현재 백업 정책에 의해 보호되고 있는 경우 위의 * 보호된 인스턴스 * 를 클릭합니다.
+** 이동하려는 조직의 백업 상태가 보류 중인 경우 위의 * 보류 중인 인스턴스 * 를 클릭합니다.
+** 이동하려는 조직이 현재 백업 정책에 의해 보호되지 않는 경우 위의 * 보호되지 않는 인스턴스 * 를 클릭합니다.
+
+
+. 새 계층을 선택합니다. 계층 2 및 계층 3 백업만 Sandbox 인스턴스에 사용할 수 있습니다. sandbox 인스턴스는 계층 1 정책에 따라 백업할 수 없습니다. 운영 인스턴스는 계층 1 정책에 있거나 보호되지 않을 수 있습니다. 운영 인스턴스는 계층 2 또는 계층 3 정책에 백업할 수 없습니다. 조직이 새 백업 계층으로 이동합니다.
+

@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: concept_paid_subscription_workflow.html 
+keywords: netapp, saas backup, salesforce, getting, started, workflow, paid, subscription 
+summary: SaaS Backup for Salesforce의 유료 가입 계정을 시작하려면 활성화 코드가 있어야 하며 Salesforce 또는 NetApp SSO에 가입해야 합니다. 
+---
+= SaaS Backup for Salesforce의 유료 가입으로 시작하는 워크플로우를 제공합니다
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce의 유료 가입 서비스를 시작하려면 다음을 수행해야 합니다.
+
+.단계
+. 활성화 코드가 있습니다.
+. SaaS Backup에서 제공하는 Amazon S3 스토리지를 사용할지, 아니면 BYOS(Bring Your Own Storage) 옵션을 사용할지 결정합니다. 필요한 경우 BYOS의 경우 link:task_gather_information_byos.html["스토리지에 대한 정보를 수집합니다"].
+. 아직 가 없는 경우 link:task_creating_system_admin.html["Salesforce 시스템 관리자 계정"], 하나를 작성합니다.
+. 에 등록하십시오 link:task_signing_up_paid.html["SaaS Backup for Salesforce의 유료 구독"] Salesforce 계정 또는 NetApp SSO 계정 사용
+. link:task_configuring_salesforce_service.html["Salesforce 서비스를 구성합니다"].
+. link:task_adding_new_instance.html["운영 또는 샌드박스 인스턴스 추가"].
+. link:scheduling_first_backup.html["첫 번째 백업을 예약합니다"].
+. 필요한 경우 link:task_performing_immediate_backup.html["데이터를 즉시 백업합니다"].
+
+
+image:workflow_paid.gif["유료 가입 등록 프로세스의 워크플로"]

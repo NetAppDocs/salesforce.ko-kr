@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_enable_disable_metadata_backups.html 
+keywords: netapp, saas backup, salesforce, enable, enabling, disable, disabling, backup, backups, metadata, metadata backups 
+summary: Salesforce에 대한 메타데이터 백업을 사용하거나 사용하지 않도록 설정할 수 있습니다. 
+---
+= 메타데이터 백업 설정 및 해제
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce에 대한 메타데이터 백업을 사용하거나 사용하지 않도록 설정할 수 있습니다.
+
+
+
+== 메타데이터 백업 설정
+
+메타데이터 백업을 설정하면 테넌트 계정 내의 모든 조직에 메타데이터 백업이 제공됩니다.
+
+.단계
+. 을 클릭합니다 image:icon_gear.gif["기어 아이콘"] 를 클릭하고 * 서비스 설정 * 에서 * Salesforce * 를 선택합니다.
++
+image:select_salesforce_settings.gif["Salesforce 설정"]
+
+. 기능을 켜려면 * 메타데이터 백업 활성화 * 를 클릭합니다. 테넌트 레벨에서 활성화된 후에는 모든 조직의 메타데이터가 백업됩니다.
+
+
+
+
+== 메타데이터 백업 해제
+
+조직 수준에서 메타데이터 백업을 비활성화할 수 있습니다. 모든 조직에서 메타데이터 백업을 사용하도록 설정한 후에는 메타데이터 백업이 없는 조직을 제어할 수 있습니다.
+
+.단계
+. 메타데이터 백업을 비활성화하려면 * 서비스 * 로 이동하십시오.
+. 운영 인스턴스 * 또는 * Sandbox 인스턴스 * 를 선택합니다.
+. 보호된 * 인스턴스의 수를 선택합니다.
+. 메타데이터 백업을 비활성화할 조직을 선택합니다.
+. 기능을 끄려면 * Metadata Backup * 을 클릭합니다.
++
+image:disable_metadata_backup.gif["메타데이터 백업을 비활성화합니다"]
+
+

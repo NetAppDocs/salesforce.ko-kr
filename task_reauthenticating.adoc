@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_reauthenticating.html 
+keywords: netapp, saas backup, reauthenticating, reauthentication, tokens, refresh, expired, access 
+summary: 즉시 백업 또는 복원을 취소할 수 있습니다. 예약된 백업은 취소할 수 없습니다. 
+---
+= 재인증 중입니다
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce는 자격 증명을 다시 인증하기 전에 최대 5개의 토큰을 사용할 수 있습니다. 백업 또는 복원을 시작하려고 하고 모든 토큰이 사용된 경우 "만료된 액세스/토큰 새로 고침"이라는 오류 메시지가 표시됩니다. 이 메시지가 표시되면 계속하기 전에 다시 인증해야 합니다.
+
+
+toc::[]
+.단계
+. 대시보드의 왼쪽 위 모서리에서 을 클릭합니다 image:configure_icon.jpg["설정 아이콘"].
+. 서비스 설정 * 에서 * Salesforce * 를 선택합니다.
+. 액세스 권한 부여 * 를 클릭합니다.
++
+image:grant_access_permissions.jpg["액세스 권한 부여 아이콘"]
+
+. production * 또는 * sandbox * 탭을 클릭하여 재인증할 인스턴스를 선택합니다.
+. 을 클릭합니다 image:re_authenticate.jpg["재인증 아이콘"].
++
+자격 증명을 입력하기 위해 * Salesforce * 로 리디렉션됩니다. 재인증을 완료한 후 백업 또는 복원 작업을 시작할 수 있습니다.
+
+

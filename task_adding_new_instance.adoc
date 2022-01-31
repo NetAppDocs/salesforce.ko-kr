@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_adding_new_instance.html 
+keywords: netapp, saas backup, salesforce, adding, production, sandbox, instance 
+summary: SaaS Backup for Salesforce를 구성한 후 새 운영 또는 샌드박스 인스턴스를 추가합니다. 
+---
+= 새 Production 또는 Sandbox 인스턴스 추가
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce를 구성한 후 새 운영 또는 샌드박스 인스턴스를 추가합니다.
+
+
+toc::[]
+.단계
+. 왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다.image:services.jpg[""]
+. 운영 인스턴스를 추가하려면 * 운영 인스턴스 * 를 클릭합니다.image:production_instances.gif[""]Sandbox 인스턴스를 추가하려면 * Sandbox 인스턴스 * 를 클릭합니다.image:sandbox_instances.gif[""]
+. 오른쪽 위 모서리에서 파란색 을 클릭합니다 image:bluecircle_icon.jpg[""] 새 인스턴스를 추가합니다.
+. 조직 추가 * 에서 * 제출 * 을 클릭합니다.
+. 시스템 관리 자격 증명을 입력하여 인스턴스를 추가합니다. 운영 조직은 계층 1 백업 정책에 자동으로 추가되고 즉시 백업이 예약됩니다.
+

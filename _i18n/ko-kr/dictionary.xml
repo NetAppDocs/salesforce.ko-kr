@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="2ac6bc59b5b989538923d84e1ea514db" category="summary">SaaS Backup for Salesforce를 사용하여 데이터를 백업할 수 있습니다.</block>
+  <block id="907ae2ca5325729883590ff7c02d41c5" category="doc">즉시 백업 수행</block>
+  <block id="ec282453c4e7aeb8e9175645fd052dde" category="paragraph">데이터 보호에 필요한 것으로 판단되는 경우 언제든지 운영 또는 샌드박스 인스턴스에 대한 즉각적인 백업을 수행할 수 있습니다.</block>
+  <block id="0ac04b08cb1d1c1bbcd624736d7a4a94" category="admonition">SaaS Backup for Salesforce의 평가판 버전은 하루에 세 번의 즉각적인 백업만 수행할 수 있습니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
+  <block id="c6aff3753ce09bcfb3d2b41b0a79b0e3" category="list-text">왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다.<block ref="5ba64ff8e229cabdd4607f87216788c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f22d8c940dd594c29cdb0e25b5f0ff4b" category="list-text">운영 인스턴스 * 또는 * Sandbox 인스턴스 * 를 클릭합니다.<block ref="ce00dffed0446e4163769bd4d24d0914" category="inline-image-macro-rx" type="image"></block>
+<block ref="6327247e9a4189d75bc19c6623ed5709" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baf2a6acc7bf93d57a5241e55f47b451" category="list-text">지금 백업하려는 올바른 인스턴스를 선택하십시오.</block>
+  <block id="3af0e2bdb62097f5bc1ca53f6a609c89" category="list-text">백업하려는 인스턴스가 현재 백업 정책에 의해 보호되는 경우 위의 * 보호된 인스턴스 * 를 클릭합니다.</block>
+  <block id="178b85ce455f76e1369759a5627661c1" category="list-text">백업할 인스턴스의 백업 상태가 보류 중인 경우 위의 * 보류 중인 인스턴스 * 를 클릭합니다.</block>
+  <block id="6e7c3936f9100e1566aebc841eb34e1a" category="list-text">백업하려는 인스턴스가 현재 백업 정책에 의해 보호되지 않는 경우 위의 * 보호되지 않는 인스턴스 * 를 클릭합니다.</block>
+  <block id="6e6a294919979dec0dad4dccdf93997f" category="list-text">조직의 이름을 클릭합니다.<block ref="1817e809bf9d7df296a1d69c4e0dda36" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b163a01243d4a9aa0d46c2d5b37c4ba1" category="list-text">지금 백업 * 을 클릭합니다. 선택한 조직이 백업 대기열에 배치되고 있음을 나타내는 메시지가 나타납니다.</block>
+  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">제출 * 을 클릭합니다.</block>
+  <block id="0cebcf4339f902fdf1525ec660af0ae0" category="summary">즉시 백업 또는 복원을 취소할 수 있습니다. 예약된 백업은 취소할 수 없습니다.</block>
+  <block id="8070fdc102d390da84f81bb4f3734ddc" category="doc">작업을 취소합니다</block>
+  <block id="fb946ac62826c08c09ffa9bd4bdf1e4a" category="list-text">왼쪽 탐색 창에서 * Jobs * 를 클릭합니다.</block>
+  <block id="e638d1995e6647b2b7da636d46869bbb" category="list-text">최근 실행 작업 * 에서 취소할 작업을 찾습니다.</block>
+  <block id="2188814b9661f9446f5934ae878cd88b" category="list-text">취소 * 를 클릭합니다.</block>
+  <block id="92f856161fa8f81bc4e945d0b7170384" category="summary">파일로 내보내기 기능을 사용하여 첨부 파일, 결과 및 통계를 다운로드할 수 있습니다.</block>
+  <block id="c41fcd1478e92a3f4218e36f395b11ef" category="doc">내보내기 데이터를 다운로드하는 중입니다</block>
+  <block id="f38ac5c423a8fd7fabd1c5456f02ad53" category="paragraph">개체 및 조직 수준에서 데이터를 내보낼 수 있습니다. 각 내보내기에 대해 이전 백업에서 첨부 파일, 결과 및 통계를 다운로드할 수 있습니다.</block>
+  <block id="2a01ae3814b88563f913199a6008c2ca" category="section-title">오브젝트 레벨의 내보내기</block>
+  <block id="5f041d8db3b153086beeb72300f6b9c2" category="inline-image-macro">이미지는 운영 인스턴스 상자를 보여 줍니다</block>
+  <block id="a7d1e7db6a3bd1ab0530ba311e8d7a45" category="inline-image-macro">이미지는 Sandbox 인스턴스 상자를 표시합니다</block>
+  <block id="c0d1e974351fe0bc90e5439113bdc226" category="list-text">운영 인스턴스 * 또는 * Sandbox 인스턴스 * 를 클릭합니다.<block ref="3efb934d065119d0d977a01235119f21" category="inline-image-macro-rx" type="image"></block>
+<block ref="74113e3b84abd7b45a9a9b49b1f69ba7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f2c3c2c4f02328be900017e4b7cba694" category="inline-image-macro">이미지 보호된 인스턴스를 표시합니다</block>
+  <block id="66afa706f8158838b122c5e58c08386e" category="list-text">보호된 인스턴스 수 * 를 클릭합니다.<block ref="74c1c9078b16f1abb5273b10c2824d6f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="276a073a3303ba2141cf18b4edf8cc06" category="inline-image-macro">이미지 조직 이름을 클릭할 위치를 표시합니다</block>
+  <block id="3d59469471281217c5f91b944abae1c3" category="list-text">조직의 이름을 클릭합니다.<block ref="2a793825c204c0c8c788f5b667261f38" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="30178cec99dfc0c06f8a0a2650f2fc2e" category="inline-image-macro">이미지 복원 단추를 표시합니다</block>
+  <block id="3a76b3539caa4a3ae469882db407524a" category="list-text">내보낼 개체를 선택하고 * 복원 * 을 클릭합니다.<block ref="ed099f1d0e68ac4814c1f0e91c394c36" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7796069b65b42b7b465aa5d107c3c1b5" category="list-text">필요한 경우 * 관계 복원 * 또는 * 파일/첨부 파일 복원 * 을 선택하여 내보내기에 포함합니다.</block>
+  <block id="40b27afc2ccdbe82882d3c01870ca75f" category="admonition">관계 복원 * 을 선택하면 작업이 선택한 개체와 해당 관계 개체를 모두 내보냅니다. 관계 복원 * 을 선택하지 않으면 작업이 선택한 오브젝트만 내보냅니다.</block>
+  <block id="f705cfc7a65a6b52e15591b6d50ce367" category="list-text">왼쪽 창 탐색에서 * Jobs * 를 클릭하여 복원 작업을 확인합니다.</block>
+  <block id="eb5329f3cdd0b8f67ddd06b3ab96c829" category="list-text">작업 세부 정보와 다운로드 옵션을 보려면 * Total Objects * 또는 * Successful * 을 클릭합니다.</block>
+  <block id="15c44f1d27191a0964800be2dd9caf67" category="list-text">파일/첨부 파일 복원 * 이 있는 내보내기 작업의 경우 다음 세 가지 다운로드 옵션이 있습니다.</block>
+  <block id="334b05e28f9e3c95d3013539383ab79a" category="inline-image-macro">이미지 내보내기 데이터 다운로드 링크 버튼을 표시합니다</block>
+  <block id="164009c19e49dc2bd3564c2465dec21b" category="list-text">결과를 보려면 를 클릭합니다 <block ref="ee1b0ffdb9fe671b55d7e2d2900991da" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="0b554cf7d0cd029fe76b24ea6c603b55" category="list-text">파인더에 다운로드한 .tar.gz 파일을 찾습니다.</block>
+  <block id="79dd9c251978b20ce2fb30eae760a500" category="list-text">파일의 압축을 풀어 .tar 파일을 가져옵니다.</block>
+  <block id="b7f24e7b78e56db9c5f2ce0d2993bec2" category="list-text">Excel 결과를 보려면 .tar 파일의 압축을 풉니다.</block>
+  <block id="6fed68d63f4d557826ce2aed5b9e08a2" category="inline-image-macro">이미지는 첨부 파일 다운로드 링크를 보여줍니다</block>
+  <block id="6588745f7e70dacfa4aa4bd33aa0999c" category="list-text">첨부 파일의 경우 를 클릭합니다 <block ref="f0d0ca820fef4086d5e83a4fc076ee6a" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="0decf83c12f33f94b9e21a9396029942" category="list-text">첨부 파일을 보려면 .tar 파일의 압축을 풉니다.</block>
+  <block id="ee1ca5819ccaf145f82ef29f2993c8f7" category="inline-image-macro">이미지는 다운로드 링크를 보여줍니다</block>
+  <block id="92e5479dbacf366fa8a81f85adb7aabb" category="list-text">통계 보고서를 보려면 를 클릭합니다 <block ref="e1176c9d3fdda36b778bcc02d33b070f" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="75ee5e5f484aca20bedccf27f4d1f5ab" category="list-text">파일/첨부 파일 복원 * 이 없는 내보내기 작업의 경우 두 가지 다운로드 옵션이 있습니다.</block>
+  <block id="1d7782c515324c7a2802c0ddffde4b64" category="inline-image-macro">이미지 내보내기 데이터 다운로드 링크를 표시합니다</block>
+  <block id="cec9512f8c8e46dd085810bb30259d75" category="list-text">결과를 보려면 를 클릭합니다 <block ref="6661fba7ca5be28c7b6ffd52e6404fdb" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="dc2b75fc39db1e636a25312eb666dfc0" category="section-title">조직 수준 내보내기</block>
+  <block id="0def803db7f32b91b0966d8e8dc50ff3" category="inline-image-macro">이미지는 계층 드롭다운을 보여 줍니다</block>
+  <block id="1d1777ba8766e292135a06ed2449955d" category="list-text">계층 * 을 선택합니다.<block ref="32e248ec398293680426752180c37ea4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="59e5341ebbc4de63119156e493008872" category="inline-image-macro">이미지는 내보내기 옵션과 함께 복구 드롭다운을 표시합니다</block>
+  <block id="7f9e82bcb91ebbf91153c9417f18c8d4" category="list-text">복원 * 을 클릭한 다음 * 데이터 내보내기 * 옵션을 클릭합니다.<block ref="a3e073f6dd75aa1ec102f8aa055522b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43a5e9f782e7425a5de082621292c31a" category="list-text">필요한 경우 * 파일/첨부 파일 복원 * 을 클릭하여 내보내기에 포함합니다.</block>
+  <block id="a5f832ff0ee5864da54220ac9154e3f6" category="list-text">작업 세부 정보와 다운로드 옵션을 보려면 * Total Organizations * 또는 * Successful * 을 클릭합니다.</block>
+  <block id="7ba79f88891f59b2fc1f614ebcc1cf9a" category="summary">SaaS Backup for Salesforce를 구성한 후 새 운영 또는 샌드박스 인스턴스를 추가합니다.</block>
+  <block id="500c53a47475efc0e7d097ccda25de1f" category="doc">새 Production 또는 Sandbox 인스턴스 추가</block>
+  <block id="50cc7be43090b8b75bb04c1b2f74c887" category="list-text">운영 인스턴스를 추가하려면 * 운영 인스턴스 * 를 클릭합니다.<block ref="ce00dffed0446e4163769bd4d24d0914" category="inline-image-macro-rx" type="image"></block>Sandbox 인스턴스를 추가하려면 * Sandbox 인스턴스 * 를 클릭합니다.<block ref="6327247e9a4189d75bc19c6623ed5709" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee50cefd1f340cd28bc3d72b8cd168d0" category="list-text">오른쪽 위 모서리에서 파란색 을 클릭합니다 <block ref="95bc20c61d9cbc7f39ac68f838698eaf" category="inline-image-macro-rx" type="image"></block> 새 인스턴스를 추가합니다.</block>
+  <block id="659886a0a3e8bcb62083c1c45bd44606" category="list-text">조직 추가 * 에서 * 제출 * 을 클릭합니다.</block>
+  <block id="06da2c1a6887049c8e587b48fadbc5c2" category="list-text">시스템 관리 자격 증명을 입력하여 인스턴스를 추가합니다. 운영 조직은 계층 1 백업 정책에 자동으로 추가되고 즉시 백업이 예약됩니다.</block>
+  <block id="9f02509e5496e861df4c341dba05386e" category="doc">백업 정책</block>
+  <block id="27c16bc2e8f217eeebbc4d328715771d" category="paragraph">SaaS Backup for Salesforce에는 3개의 미리 정의된 백업 정책 계층이 있습니다. 이러한 정책 계층은 백업 빈도와 데이터 보존 기간에 따라 다릅니다. 운영 인스턴스는 계층 1 정책으로만 보호할 수 있습니다. sandbox 인스턴스는 계층 2 및 계층 3 정책으로 보호할 수 있습니다.</block>
+  <block id="fac12c85b62e78f119d552b6f9aa2451" category="paragraph">Active * 상태의 백업 정책은 백업에 항목이 할당된 정책입니다. 비활성 * 상태인 백업 정책에는 백업을 위해 할당된 항목이 없습니다.</block>
+  <block id="7759a4720271a1ab3b4e6b1c36a67058" category="cell">백업 정책</block>
+  <block id="4e92547e997fe98c132fd1cfb873bc65" category="cell">백업 빈도</block>
+  <block id="fd597450368b610e3110c7036f852ae9" category="cell">기본 데이터 보존 기간</block>
+  <block id="fd72de49d13af6b0bdb18e11fd0383f5" category="cell">보호 가능</block>
+  <block id="538a4400e894e9e5dbff6dcd6e9d6e17" category="cell">계층 1</block>
+  <block id="82875668baf626071ef9cf3c751ec69c" category="cell">12시간마다 한 번</block>
+  <block id="89ee81dad12fa06ec6a5b8461129cdd0" category="cell">3년</block>
+  <block id="442d53a01a3bee5e6238f5340bd310ed" category="cell">운영 인스턴스</block>
+  <block id="3e335d546de3fa7d51e6942ccc8339b7" category="cell">계층 2</block>
+  <block id="585a8bd659fa917cebfb861f91e2e30b" category="cell">18시간마다 한 번</block>
+  <block id="da7e60c600159e2ccabbfea4d6a2c242" category="cell">2년</block>
+  <block id="4a78027bac8863cdd27fa44267c804be" category="cell">sandbox 인스턴스</block>
+  <block id="83ee9728e65dff5bbbf6297550157b9e" category="cell">계층 3</block>
+  <block id="81ab7d159caeeff3fad2829d4a3d72bd" category="cell">24시간마다 한 번</block>
+  <block id="ab254afc26016555fc58a2fbf20c0c73" category="cell">보호되지 않음</block>
+  <block id="32771279cda84268b560695103314e6a" category="cell">백업되지 않았습니다</block>
+  <block id="40350e4eafc364700da8aea489f2ef8d" category="cell">생산 및 Sandbox 인스턴스</block>
+  <block id="5ed5c66aa1c9d72063f7a2f9f75a17d9" category="summary">Sandbox 또는 운영 인스턴스의 데이터가 보호된 후에는 언제든지 다른 백업 계층으로 이동하도록 선택할 수 있습니다.</block>
+  <block id="9d26c855a2d401584a2885908a0440b0" category="doc">백업 예약 또는 백업 빈도 변경</block>
+  <block id="bf7f5a76355a51d213b8e2aefe6448df" category="paragraph">SaaS Backup for Salesforce에 Sandbox 인스턴스를 추가하는 경우 기본적으로 Sandbox의 모든 데이터는 보호된 백업 계층으로 수동으로 이동할 때까지 보호되지 않습니다. Sandbox 또는 운영 인스턴스의 데이터가 보호된 후에는 언제든지 다른 백업 계층으로 이동하도록 선택할 수 있습니다.</block>
+  <block id="9989c95c3053ade316ac50c74e9bf818" category="list-text">왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다.</block>
+  <block id="5ba64ff8e229cabdd4607f87216788c3" category="paragraph"><block ref="5ba64ff8e229cabdd4607f87216788c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="44917becc84255e65ad6fe93d451cc1b" category="list-text">운영 인스턴스에서 조직을 이동하려면 * 운영 인스턴스 * 를 클릭합니다.</block>
+  <block id="a6f77429d7ea5df57df973d7d95bc5d0" category="paragraph"><block ref="ce00dffed0446e4163769bd4d24d0914" category="inline-image-macro-rx" type="image"></block>Sandbox 인스턴스에서 조직을 이동하려면 * Sandbox 인스턴스 * 를 클릭합니다.</block>
+  <block id="6327247e9a4189d75bc19c6623ed5709" category="paragraph"><block ref="6327247e9a4189d75bc19c6623ed5709" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2dd3092c0021650efb24806c99dcda40" category="list-text">이동할 조직의 올바른 인스턴스 범주를 선택합니다.</block>
+  <block id="7670cfa6d9bbf678073477b4fcc99ece" category="list-text">이동하려는 조직이 현재 백업 정책에 의해 보호되고 있는 경우 위의 * 보호된 인스턴스 * 를 클릭합니다.</block>
+  <block id="7ea477de966f01b087d683477ebe57f1" category="list-text">이동하려는 조직의 백업 상태가 보류 중인 경우 위의 * 보류 중인 인스턴스 * 를 클릭합니다.</block>
+  <block id="49ba784e1afa2eaa7b52ddf742fd613c" category="list-text">이동하려는 조직이 현재 백업 정책에 의해 보호되지 않는 경우 위의 * 보호되지 않는 인스턴스 * 를 클릭합니다.</block>
+  <block id="b01a359c58f18a208adc0ca76cb7882d" category="list-text">새 계층을 선택합니다. 계층 2 및 계층 3 백업만 Sandbox 인스턴스에 사용할 수 있습니다. sandbox 인스턴스는 계층 1 정책에 따라 백업할 수 없습니다. 운영 인스턴스는 계층 1 정책에 있거나 보호되지 않을 수 있습니다. 운영 인스턴스는 계층 2 또는 계층 3 정책에 백업할 수 없습니다. 조직이 새 백업 계층으로 이동합니다.</block>
+  <block id="0371b86706bebc66ab7d2867f25222f4" category="doc">재인증 중입니다</block>
+  <block id="38b3b15aa40d87ba9a9deeee25cd9978" category="paragraph">Salesforce는 자격 증명을 다시 인증하기 전에 최대 5개의 토큰을 사용할 수 있습니다. 백업 또는 복원을 시작하려고 하고 모든 토큰이 사용된 경우 "만료된 액세스/토큰 새로 고침"이라는 오류 메시지가 표시됩니다. 이 메시지가 표시되면 계속하기 전에 다시 인증해야 합니다.</block>
+  <block id="728f9cb24ecfd35a7e315f00f6a55628" category="inline-image-macro">설정 아이콘</block>
+  <block id="8d499e5c1f59d0ec55de50137566c0b0" category="list-text">대시보드의 왼쪽 위 모서리에서 을 클릭합니다 <block ref="0f7cd87e94c220fddeb0cfa6fca9f3a2" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="173eb3c4fa5f55eb6a003a37ddb9a241" category="list-text">서비스 설정 * 에서 * Salesforce * 를 선택합니다.</block>
+  <block id="018fe6950e6c2fd26254cfa46079f320" category="list-text">액세스 권한 부여 * 를 클릭합니다.</block>
+  <block id="20d6b70306e95bc0f067085e43915383" category="inline-image-macro">액세스 권한 부여 아이콘</block>
+  <block id="e437a0bb03b60349b5e0dedc640c9533" category="paragraph"><block ref="e437a0bb03b60349b5e0dedc640c9533" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9dfee0005dab9bba9f36b8863a25d572" category="list-text">production * 또는 * sandbox * 탭을 클릭하여 재인증할 인스턴스를 선택합니다.</block>
+  <block id="52195dc201f53841700962d052dae8de" category="inline-image-macro">재인증 아이콘</block>
+  <block id="b8762728802bb6a142dca1f36cfa72d3" category="list-text">을 클릭합니다 <block ref="77891bfbce05afd8e1492f25f6c97ff1" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="7a519e43e124133e436f67b709916720" category="paragraph">자격 증명을 입력하기 위해 * Salesforce * 로 리디렉션됩니다. 재인증을 완료한 후 백업 또는 복원 작업을 시작할 수 있습니다.</block>
+  <block id="185ccdbd0f3db3c982020e50d34cbd7a" category="summary">SaaS Backup for Salesforce의 유료 구독으로 시작하려면 활성화 코드를 얻고 Salesforce 또는 NetApp SSO에 가입해야 합니다.</block>
+  <block id="02831244155860da646f7e87b5739147" category="doc">SaaS Backup for Salesforce의 유료 구독에 등록</block>
+  <block id="abd96cae778dd0203223196c8d033bb3" category="paragraph">SaaS Backup with Salesforce 또는 NetApp SSO 계정의 유료 구독에 등록할 수 있습니다.</block>
+  <block id="7f8e14b8d8e09c584da676a647feecd9" category="paragraph">등록 프로세스를 완료하려면 SaaS Backup 라이센스 구입 시 제공된 일련 번호 또는 무료 평가판 버전에 등록할 때 제공된 활성화 코드가 있어야 합니다.</block>
+  <block id="7f7ffed00efb82169586a2733bed846a" category="section-title">SaaS Backup with Salesforce에 등록</block>
+  <block id="a52cb76668ff34d00f15857b1fdc199d" category="list-text">웹 브라우저에 SaaS Backup URL을 입력합니다.<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
+  <block id="d2223e7c5f1c8ed548d675adc48059fc" category="list-text">페이지 하단의 * 가입 * 을 클릭합니다.</block>
+  <block id="b0a687660e1c628c1726a722e3ed796b" category="list-text">지역을 선택하십시오.</block>
+  <block id="c8e5f561672616fbf087df05fe4d7bae" category="list-text">서비스 약관을 읽고 동의합니다.</block>
+  <block id="4a3d3e25952e8507a1ea71bece0afde3" category="list-text">Salesforce 를 클릭합니다.</block>
+  <block id="c5c6ef1d20c02624c11f580a59c168ed" category="paragraph"><block ref="c5c6ef1d20c02624c11f580a59c168ed" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2ef0ef4063f76735b22e8d575f75b3d7" category="list-text">시스템 관리자 권한이 있는 Salesforce 계정의 사용자 이름과 암호를 입력하고 * 로그인 * 을 클릭합니다.</block>
+  <block id="bf8175c0cca18a886d4f88c70f1e45e8" category="list-text">Salesforce 조직에 SaaS 백업 액세스 권한을 부여하려면 * 허용 * 을 클릭합니다.</block>
+  <block id="865070c807b0759ce6e3e5ddcb6d6f79" category="paragraph"><block ref="865070c807b0759ce6e3e5ddcb6d6f79" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a2895c972e099be833cd683aa3dd1daf" category="list-text">등록 양식을 작성하고 * 등록 * 을 클릭합니다.</block>
+  <block id="82e595b350d13ee64d9e3e6a5883ec49" category="list-text">Salesforce * 를 클릭합니다.</block>
+  <block id="c493625c5afcca0c5f4d8140f2667daa" category="paragraph">유료 구독이 있는 경우 * Licensed * 를 클릭합니다. 사용자 이름, 암호 및 라이센스 일련 번호를 입력하고 * 구독 확인 * 을 클릭합니다.</block>
+  <block id="278cd16c1d88b9f641463ff754912c75" category="list-text">백업 스토리지 옵션을 선택합니다.</block>
+  <block id="5a7de7758f68905e9b6bd4d7fab35b85" category="paragraph">BYOS(Bring Your Own Storage)나 SaaS Backup에서 제공하는 스토리지를 사용할 수 있습니다. SaaS Backup은 Amazon S3만 지원합니다.</block>
+  <block id="b9bd8777164d8d22a8f236088e6aa9c6" category="list-text">SaaS Backup 제공 스토리지를 선택하는 경우 지역을 선택합니다.</block>
+  <block id="e1cc8c309354827b9ce96a7d94b68480" category="paragraph">BYOS 옵션을 선택한 경우 요청된 정보를 입력하고 * Test Connection * 을 클릭합니다.</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
+  <block id="33251830092a8dc9bff4fd325e03cf2f" category="section-title">NetApp SSO를 사용하여 SaaS Backup에 등록</block>
+  <block id="06de5e18df9b68ad205bdd89c754be1b" category="list-text">최종 사용자 사용권 계약에 동의합니다.</block>
+  <block id="8a6335abd9a4b98e311c95e3d150fde2" category="list-text">NetApp SSO 를 클릭합니다.</block>
+  <block id="9e79844d296a50ae951d42d87cf67e3b" category="paragraph"><block ref="9e79844d296a50ae951d42d87cf67e3b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d31b507eddf1e6c358bc29b44c2efe48" category="list-text">NetApp SSO 및 암호를 입력한 다음 * 로그인 * 을 클릭합니다.</block>
+  <block id="77dbdacc64bcf150919a0f6f6100d79f" category="paragraph">유료 구독이 있는 경우 * Licensed * 를 클릭합니다. 사용자 이름, 암호 및 라이센스 일련 번호를 입력하고 * 구독 확인 * 을 클릭합니다</block>
+  <block id="3c94b1350efc6463906e845a2ff7d491" category="summary">Salesforce 조직에서 데이터를 제거할 수 있습니다.</block>
+  <block id="f63e44f6b7c0301b6b1aee23f1f33f4c" category="doc">데이터 및 메타데이터를 제거하는 중입니다</block>
+  <block id="ba148551a0c83efdb34b7d72ad2e3c41" category="paragraph">Salesforce 조직에서 데이터를 제거할 수 있습니다. 조직 수준에서 데이터를 제거하는 작업은 * 계정 설정 * 에서 관리합니다.</block>
+  <block id="8ae4b4d870a75f00712197eb3ccd3115" category="paragraph">SaaS Backup for Salesforce는 메타데이터 보존 및 보관을 자동으로 관리합니다. 메타데이터는 90일 동안 유지됩니다. 90일이 지나면 메타데이터가 제거됩니다.</block>
+  <block id="84a81e8817ee1211f1116f3e258a2573" category="section-title">데이터 삭제</block>
+  <block id="883019e162e0c4e0b900f1f94f06fefe" category="paragraph">사용되지 않는 Salesforce 조직과 같은 특정 조직에서 데이터를 제거하는 옵션이 항상 있습니다.</block>
+  <block id="7021f5ee4da5c50a415a3247a8359eff" category="paragraph">데이터를 퍼지하여 운영 또는 샌드박스 인스턴스를 새로 고칠 수 있습니다.</block>
+  <block id="7d43d9444adcbf8ad8288805f4b4bad4" category="paragraph">다른 운영 또는 샌드박스 인스턴스를 추가할 수도 있습니다. 이렇게 하려면 운영 인스턴스 또는 샌드박스 인스턴스를 제거해야 합니다.</block>
+  <block id="92eef66d548ce3ad6566a41eb934f2c6" category="inline-image-macro">기어 아이콘</block>
+  <block id="93aae2968df995f78e23eefab4b48ff2" category="inline-image-macro">계정 설정</block>
+  <block id="b92b1f2cfc798435ec4ef5c6c87baf7c" category="list-text">을 클릭합니다 <block ref="89149122f375b234b8eecb4e23756acb" category="inline-image-macro-rx" type="image"></block> 을 클릭한 다음 을 클릭합니다 <block ref="58b1e22a3220385100ba59b71134b799" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="e07e5b3f855bd71b1e85f83acb5838d3" category="list-text">유지 및 제거 * 를 클릭합니다.</block>
+  <block id="b6c1f1556ca81bcb192508a855aed6ed" category="list-text">유지 및 제거 * 에서 * 데이터 삭제 * 로 스크롤합니다.</block>
+  <block id="75499a48a29cb620fe0f3e0c58884269" category="list-text">공급자 유형 * 및 * 서비스 이름 * 을 선택합니다.</block>
+  <block id="a90988501f4f1fc09cca43a59ead1d95" category="list-text">조직 ID를 검색하거나 선택합니다.</block>
+  <block id="3a7a2a0aea8e508b7ff5461b8e07d419" category="list-text">저장 * 을 클릭합니다. 삭제를 확인하거나 취소하라는 메시지가 나타납니다.</block>
+  <block id="7f23b56fd4dedf5d74e995b97b9a5426" category="list-text">제거를 확인하려면 * 예 * 를 클릭합니다. 예 * 를 클릭하면 제거된 데이터를 최대 7일 동안 복구할 수 있습니다.</block>
+  <block id="ad0bf7aa96dd40f32d3b2dca69c49df6" category="list-text">예약된 제거 목록을 보려면 * 제거된 목록 표시 * 를 클릭합니다.</block>
+  <block id="f4a7061cca9ee27e82185f896b9e3729" category="inline-image-macro">삭제된 목록의 예</block>
+  <block id="f507635adae33a1f2928daca90683e32" category="paragraph"><block ref="f507635adae33a1f2928daca90683e32" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="da19b7c2e291b2b5c0f2a8511e2d737a" category="summary">더 나은 서비스를 제공할 수 있도록 피드백을 제공합니다.</block>
+  <block id="03dd17d9bfb6ac47a56a2c201bab1690" category="doc">피드백 제공</block>
+  <block id="aa78677ae2b133ceae8bb92497a8c07f" category="paragraph">NetApp SaaS Backup for Salesforce 제품에 대한 고객님의 의견은 고객 서비스 향상을 위한 것입니다. 내부 SaaS Backup에서 피드백을 제공할 수 있습니다.</block>
+  <block id="b94bf479616c645e1d92893ad9ee316d" category="list-text">을 클릭합니다 <block ref="745b42c40461b85675b54d346e429160" category="inline-image-macro-rx" type="image"></block> 왼쪽 창 탐색</block>
+  <block id="1c841320f46ae6c1639dc5e080e3fbf3" category="list-text">피드백 * 을 선택합니다.</block>
+  <block id="63b9a8e49a30f185f4f2d726a08afb6d" category="list-text">간단한 피드백 설문조사를 완료합니다.</block>
+  <block id="6be364524b60c8ce2362d8a248ae8458" category="paragraph">운영 수준의 문서가 릴리즈되거나 기존 운영 수준 문서가 변경될 때 자동으로 알림을 받으려면 Twitter 계정 @NetAppDoc를 팔로우하십시오.</block>
+  <block id="1b40ff58039e24d9c191a06c581a74f2" category="summary">NetApp SaaS Backup for Salesforce의 문서 포털에 오신 것을 환영합니다.</block>
+  <block id="62a1bf19d63cf8abd2a45f03805b1a3a" category="doc">NetApp SaaS Backup for Salesforce 문서</block>
+  <block id="2b10feb741fcf4da10b719c0abfc97b5" category="paragraph">NetApp SaaS Backup은 Salesforce 데이터를 Amazon S3 스토리지에 백업하는 안전한 클라우드 네이티브 서비스입니다. SaaS Backup은 위협 또는 실수로 인한 삭제로부터 데이터를 보호합니다.</block>
+  <block id="bf647454e36069fd16f1a7a35cf6a865" category="section-title">시작하기</block>
+  <block id="494609082845b1b9570e9b12accd0270" category="inline-link-macro">무료 평가판 시작하기</block>
+  <block id="c377e27a6756234e5dbc0a9ebc180b18" category="list-text"><block ref="c377e27a6756234e5dbc0a9ebc180b18" category="inline-link-macro-rx"></block></block>
+  <block id="f46d219f43a0dbcc59146e4522149f2a" category="inline-link-macro">유료 구독 시작하기</block>
+  <block id="2ed856152f856a3f4702866634c724d3" category="list-text"><block ref="2ed856152f856a3f4702866634c724d3" category="inline-link-macro-rx"></block></block>
+  <block id="978927f191052797fe4aa3d9bfc1c061" category="inline-link-macro">Salesforce 서비스를 구성하는 중입니다</block>
+  <block id="a952912503d02d76eb3af20b7ec2db84" category="list-text"><block ref="a952912503d02d76eb3af20b7ec2db84" category="inline-link-macro-rx"></block></block>
+  <block id="8444e7d90bb5c728d84257a5a331bc3a" category="inline-link-macro">운영 sandbox 인스턴스 추가</block>
+  <block id="8f42f22d9884fc868e065c8949ad9b98" category="list-text"><block ref="8f42f22d9884fc868e065c8949ad9b98" category="inline-link-macro-rx"></block></block>
+  <block id="fdf35b1227f429513ff332b975da2d7e" category="section-title">백업 관리 및 데이터 복원</block>
+  <block id="6fb2b97744d045afd98376f018b9f01d" category="list-text"><block ref="6fb2b97744d045afd98376f018b9f01d" category="inline-link-macro-rx"></block></block>
+  <block id="75df29488cee441970e635e10895ab96" category="inline-link-macro">데이터 복원 중</block>
+  <block id="8344e5256205a6eb6d53c776a87325a9" category="list-text"><block ref="8344e5256205a6eb6d53c776a87325a9" category="inline-link-macro-rx"></block></block>
+  <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">피드백을 제공하거나, 도움을 받거나, 더 많은 정보를 찾을 수 있습니다</block>
+  <block id="5d103525a3377b97bd04e4e6de027e21" category="list-text"><block ref="5d103525a3377b97bd04e4e6de027e21" category="inline-link-macro-rx"></block></block>
+  <block id="3cd12697cda279c9c99b093a265c1ba8" category="inline-link-macro">도움을 받을 수 있는 곳 및 자세한 정보를 얻을 수 있는 곳</block>
+  <block id="60eb37087de824a31913cb25c89ee64d" category="list-text"><block ref="60eb37087de824a31913cb25c89ee64d" category="inline-link-macro-rx"></block></block>
+  <block id="f177479df190b09a1f0a4177a434f5e2" category="inline-link-macro">SaaS Backup for Microsoft Office 365 문서</block>
+  <block id="2f885ebeca5bae9f7eaf0f5e91d94b45" category="list-text"><block ref="2f885ebeca5bae9f7eaf0f5e91d94b45" category="inline-link-macro-rx"></block></block>
+  <block id="ee2ab6f30ba276b415cb81b7cbb7a8f6" category="summary">SaaS Backup for Salesforce 무료 평가판 사용을 시작하는 데 제한 사항이 포함되어 있습니다.</block>
+  <block id="30b2123030b8a0f2633415ae646de89b" category="doc">무료 평가판 제한</block>
+  <block id="9e2588b7501cf6b0c88398471f593e95" category="paragraph">무료 평가판 계정에 적용되는 제한 사항은 다음과 같습니다.</block>
+  <block id="267f90fe8f7da740818fb252f8011476" category="list-text">최대 하나의 운영 인스턴스입니다.</block>
+  <block id="3e3a4633cb1c7ae55d51cfeb67c6bf1b" category="list-text">최대 하나의 sandbox 인스턴스.</block>
+  <block id="0c630adb5da919cc0d488065eb4d143d" category="list-text">하루에 최대 3개의 즉시 백업</block>
+  <block id="e5a3f64eb2def107afdd1de4d946b7fc" category="list-text">처음 30일 동안만 백업을 자동화합니다.</block>
+  <block id="a427716f531ce5996635c53e013e79d2" category="list-text">무료 평가판이 종료된 후 15일의 유예 기간에는 예약된 백업이 허용되지 않습니다.</block>
+  <block id="f536310d29a9e532c9dc16928c227787" category="summary">무료 평가판을 SaaS Backup의 라이센스 버전으로 업그레이드할 수 있습니다.</block>
+  <block id="00e94d3b24ba81ab2dfa5ff8ebd11a0a" category="doc">무료 평가판에서 업그레이드</block>
+  <block id="b2c9b80f91ef6a27153a7ba95e113135" category="paragraph">무료 평가판을 업그레이드하려면 유료 구독과 함께 일련 번호가 발급되어야 합니다.</block>
+  <block id="f0c5d0c5dfbd44392b4c70905f6189a0" category="list-text">구독 정보 * 옆에 있는 * 업데이트 * 를 클릭합니다.</block>
+  <block id="1d3d12fe8787f9c5ab1de41a1fead468" category="list-text">NetApp 라이센스 * 를 선택합니다.</block>
+  <block id="1d4fa2a966dfe387f521922fb31ed53a" category="list-text">사용자 이름, 암호 및 라이센스 일련 번호를 입력합니다.</block>
+  <block id="932f45b6f6a691194389c5b2c0bafb38" category="list-text">구독 유효성 확인 * 을 클릭합니다. 라이센스 정보에 대한 확인 메시지가 표시됩니다.</block>
+  <block id="0fd1b04f78c2bbd7a16c22c3534f33aa" category="summary">BYOS 옵션을 선택하여 데이터를 저장하는 경우 등록 전에 스토리지에 대한 관련 정보를 수집해야 합니다.</block>
+  <block id="499629d844ee9183fabf45477956064c" category="doc">BYOS(Bring Your Own Storage) 옵션에 대한 정보를 수집합니다</block>
+  <block id="332d3463dbca106a71bb05f27c89cb3e" category="paragraph">Amazon S3를 사용하기로 선택한 경우 로그인하기 전에 정보를 수집할 필요가 없습니다. 자체 Amazon S3 버킷을 제공하는 경우, 등록 전에 스토리지에 대한 다음 정보를 수집해야 합니다.</block>
+  <block id="e3cb65410aa9adfebb4eb1bc8ee22fec" category="list-text">버킷 이름</block>
+  <block id="f447ac856e7e72435904956e3b15f433" category="list-text">지역</block>
+  <block id="47b84fd1609df93c987377c912e3baf1" category="list-text">액세스 키</block>
+  <block id="952bf87c967660b7bbd4e1eb08cefc92" category="list-text">비밀 키</block>
+  <block id="1aff37c74ecec33e5eb093580744731f" category="summary">SaaS Backup for Salesforce를 시작하려면 무료 샌드박스 계정에 가입해야 합니다.</block>
+  <block id="74b4efd3cf6ee8568ba764448fc16eba" category="doc">Salesforce 무료 sandbox 계정에 등록 중입니다</block>
+  <block id="c4edca23e23d255d9e4575a20dbcac91" category="paragraph">Salesforce sandbox 계정을 사용하면 프로덕션 계정으로 SaaS Backup for Salesforce를 구축하기 전에 테스트 환경에서 SaaS Backup for Salesforce의 기능을 테스트할 수 있습니다.</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
+  <block id="5dda7d61b2dc5b329d94b85a75822d88" category="list-text">을 클릭합니다 <block ref="e861ad9259e82a986fbfa819c01808b9" category="inline-link-macro-rx"></block> 무료 Salesforce sandbox 계정을 시작합니다.</block>
+  <block id="1cb1088bbece8b4b561d233de760ea73" category="list-text">요청한 정보를 입력하고 이용 약관에 동의한 후 * 가입 * 을 클릭하여 등록 프로세스를 완료합니다.</block>
+  <block id="0da8562cec542c8ef9aeec051f95743a" category="list-text">이메일 계정으로 이동하여 새 샌드박스 계정을 확인하고 확인합니다. 제공된 링크는 계정에 대한 암호를 만들라는 메시지를 표시합니다.</block>
+  <block id="96195831fb6be2a8e7c71f49b37b9178" category="list-text">새로 만든 Salesforce sandbox 계정에서 Lightning 환경과 기존 환경 간에 이동할 수 있습니다. 기존 환경으로 전환하려면 * 프로필 보기 * 를 클릭한 다음 * Salesforce 클래식 * 으로 전환 * 을 클릭합니다. 이는 선택 사항입니다.</block>
+  <block id="5674406baa547260c60425cf19e1b2e3" category="list-text">설정 * 탭을 클릭합니다.</block>
+  <block id="dbe37b796f1bdecc9a66ecc7396bdd27" category="list-text">검색 표시줄에서 * Users * 를 검색하고 * Users * 를 선택합니다. 사용자 프로필 * 시스템 관리자 * 의 이름은 이 계정의 이메일입니다.</block>
+  <block id="df1a5633ba7aa2b73a88aa145a078607" category="list-text">이 이메일을 선택하고 * 암호를 재설정합니다 *. 이 단계는 로그인이 이메일 및 비밀번호를 제공하지 않기 때문에 반드시 수행해야 합니다.</block>
+  <block id="aa14f96837bca3cc006b9e44248c58cb" category="list-text">암호를 재설정한 후 이 이메일과 암호를 사용하여 샌드박스(sandbox)에 로그인할 수 있습니다.</block>
+  <block id="5824837e599913063988c3b7ea7b30d8" category="admonition">새 계정은 샘플 개체 및 레코드로 미리 채워집니다.</block>
+  <block id="235c7ed7d6248cb357348481e1f96b99" category="summary">SaaS Backup for Salesforce를 시작하려면 무료 개발자 에디션 계정에 가입해야 합니다.</block>
+  <block id="164b7dbee4ee0ca55476f18ec6b1a8cd" category="doc">Salesforce 무료 개발자 에디션 계정을 등록하는 중입니다</block>
+  <block id="07e0507bed42c9d4934e12f7a1f39200" category="paragraph">무료 Salesforce 개발자 에디션 계정을 사용하여 Salesforce 및 SaaS Backup for Salesforce의 최신 기능을 찾을 수 있습니다.</block>
+  <block id="6c2d9dea13efac128bab23425d95898e" category="list-text">을 클릭합니다 <block ref="a604c87a413b0204a2876d6a1439705a" category="inline-link-macro-rx"></block> 무료 Salesforce 개발자 에디션 계정을 시작합니다.</block>
+  <block id="a313b093c8be024aa8c7a06e15b1fab1" category="list-text">이메일 계정으로 이동하여 새 계정을 확인하고 확인합니다. 제공된 링크는 계정에 대한 암호를 만들라는 메시지를 표시합니다.</block>
+  <block id="2da13b4eae805e2e3dbde15f050b0d85" category="list-text">새로 만든 Salesforce 개발자 계정에서 Lightning 환경과 기존 환경 간에 이동할 수 있습니다. 기존 환경으로 전환하려면 * 프로필 보기 * 를 클릭한 다음 * Salesforce 클래식 * 으로 전환 * 을 클릭합니다. 이는 선택 사항입니다.</block>
+  <block id="adc9fdc19ca6b7324a9f40c58278a1d0" category="paragraph">참고: 새 계정은 샘플 개체 및 레코드로 미리 채워집니다.</block>
+  <block id="209476490c885c2badf49d7123040a54" category="summary">SaaS Backup for Salesforce에서는 SaaS Backup for Salesforce에서 백업 레코드 수를 확인할 수 있습니다.</block>
+  <block id="df9c8c38b260159798318d09259894b9" category="doc">백업 레코드 보기</block>
+  <block id="90c59962b478cc16e8bbb360ee351081" category="paragraph">SaaS Backup for Salesforce에서 백업 레코드 수를 확인할 수 있습니다.</block>
+  <block id="54313281b51c132f6d706ed0ba222d91" category="paragraph">첫 번째 전체 백업에서는 조직 수준의 총 백업 레코드 수를 제공합니다. 이 첫 번째 백업 이후 * 백업 요약 * 에서 생성, 업데이트 및 삭제된 총 레코드 수를 볼 수 있습니다.</block>
+  <block id="c2c1492bb3caa6fd5459c27eab83a361" category="list-text">대시보드에서 보호된 인스턴스(운영 또는 샌드박스) 수를 클릭합니다.</block>
+  <block id="e36da5e56af3a71f7dde2ebc52d0cad9" category="list-text">백업 요약 * 에서 * 보기 * 를 클릭합니다.</block>
+  <block id="5d908cc9bac27394b0aa4bcfdd4867c3" category="inline-image-macro">백업 요약을 봅니다</block>
+  <block id="c561979329d0dd8fcf91a1c1caab9e88" category="paragraph"><block ref="c561979329d0dd8fcf91a1c1caab9e88" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3667f9b3b8f56949933698aea82c21bf" category="list-text">생성 및 삭제된 레코드 수와 테이블의 모든 레코드 변경 레코드 수를 봅니다.</block>
+  <block id="a6bfb3846b4d5e45699c4f029100c64c" category="inline-image-macro">백업 레코드 수입니다</block>
+  <block id="c8c515138f951c36d068ebeafa1734f6" category="paragraph"><block ref="c8c515138f951c36d068ebeafa1734f6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f387e96d5a789dc7edfa831b4d2663ef" category="list-text">* 개체 이름 * - 조직의 모든 개체를 포함합니다.</block>
+  <block id="4868f3e999004cc4a1f815b936550442" category="list-text">* 생성됨 * - 모든 작성 및 업데이트 레코드</block>
+  <block id="7ca34ffb471a3bae498a369e79baf5c1" category="list-text">* 삭제됨 * - 모든 삭제된 레코드</block>
+  <block id="7cb9ad8121e71cfb54fc1dfc96885b1e" category="list-text">* 레코드 수 * - 객체에 대한 총 백업 변경 수입니다.</block>
+  <block id="b635c1cbbe90272a791773937e55c29c" category="summary">SaaS Backup의 알려진 문제 및 제한 사항에 대해 알고 있어야 합니다.</block>
+  <block id="2813f127dc58929fb553bc32684c2e46" category="doc">알려진 문제 및 제한 사항</block>
+  <block id="1cdecf8cfc1c680f3e5e3642e1b1fd43" category="paragraph">다음은 SaaS Backup for Salesforce의 알려진 문제 및 제한 사항 목록입니다.</block>
+  <block id="bcbe7b698dad6ff6a72028e11afa90aa" category="section-title">일부 객체 백업에서 누락된 기록(결함 #1169)</block>
+  <block id="34e7cb432db22480f65a063929e225e2" category="paragraph">조직의 전체 백업 또는 증분 백업 후에 검색된 총 레코드 수와 다운로드된 총 레코드 수의 개수가 약간 다를 수 있습니다. 이 문제는 특정 필드가 쿼리에 추가되고 결과적으로 Salesforce API가 모든 레코드를 반환하지 않는 경우에 발생합니다.</block>
+  <block id="2653e3e49fa97388779832c8af053cec" category="section-title">스키마 변경 전에 백업된 레코드 복원은 지원되지 않습니다(결함 #1170).</block>
+  <block id="a15bfe79557278c017909f47b59e0d64" category="paragraph">SaaS Backup은 스키마 변경 이전에 백업된 레코드의 복원을 지원하지 않습니다. 이 작업을 시도하면 복구가 실패하고 * 스키마 변경으로 인해 복원이 실패했습니다 * 라는 메시지가 표시됩니다.</block>
+  <block id="a6f5535ec20d130daac0bd5ec509db7c" category="section-title">백업에서 제외된 객체입니다</block>
+  <block id="8c64a71891153a9044c41898cc9cb9cd" category="paragraph">SaaS Backup for Salesforce는 다음 개체를 백업하지 않습니다.</block>
+  <block id="0654fbcec674157df483b1293a9bceea" category="list-text">Salesforce API를 사용하여 쿼리할 수 없는 개체입니다</block>
+  <block id="63f27138bf19636252411401243db2fd" category="list-text">일반 쿼리를 지원하지 않는 개체입니다</block>
+  <block id="65f07e44478dfa04f0e3d9ab9a398cee" category="list-text">Salesforce에서 개체의 레코드에 대한 필드 수준 변경 기록을 추적하기 위해 사용하는 기록 개체입니다.</block>
+  <block id="4ba5aba2f15e022368bed007b15bb804" category="section-title">비공개 미리보기에서 지원되지 않는 기능입니다</block>
+  <block id="85af39b96311c97edcf9348cd1cbdf7f" category="paragraph">SaaS Backup for Salesforce의 프라이빗 미리보기 버전에서는 다음 기능이 지원되지 않습니다.</block>
+  <block id="0d5d92a314cfe815158ebde328728841" category="list-text">Salesforce chatter</block>
+  <block id="a5550f858c0ad50e9beb0ecc5a553a9b" category="list-text">다음 관계 유형</block>
+  <block id="b2225ba3ad6563c0a702e4d5fe2d3128" category="list-text">N:1에서 N:N 사이의 관계</block>
+  <block id="251cabae8c7cde1462b09cba3bfed1a8" category="list-text">자기 관계</block>
+  <block id="2113d8dd22a7718f7f7ed338d5148268" category="list-text">순환 관계</block>
+  <block id="e138c067a01ea5da36c44eabfe317264" category="summary">SaaS Backup for Salesforce 시작하기 에는 Salesforce 시스템 관리자 계정을 만드는 옵션이 포함되어 있습니다.</block>
+  <block id="b35e4e63f05b27ae0e16407dc4dd95c3" category="doc">Salesforce 시스템 관리자 계정 만들기</block>
+  <block id="78404b77860e5709b717243d1e5a46bd" category="paragraph">SaaS Backup for Salesforce에 등록하면 기존 Salesforce 시스템 관리자 계정을 사용하거나 새 계정을 만들 수 있습니다.</block>
+  <block id="4a6dbb2ff650f82af801f71c3efd72c3" category="inline-link-macro">Salesforce를 참조하십시오</block>
+  <block id="875c4447ae24ff5f2861b12c9fee9288" category="list-text">에 로그인합니다 <block ref="3160f0f7cb0e8d2f6a8692427bfa3347" category="inline-link-macro-rx"></block> 기존 시스템 관리자 계정을 사용합니다.</block>
+  <block id="8bceea737b04c7239963e73450b0cb11" category="list-text">기존 환경으로 전환하려면 * 프로필 보기 * 를 클릭한 다음 * Salesforce 클래식 * 으로 전환 * 을 클릭합니다. 이는 선택 사항입니다.</block>
+  <block id="78ce0be64f6f5b2b3aaa3552ea93f0a3" category="inline-image-macro">관리 중인 사용자에 대한 검색이 이미지에 표시됩니다</block>
+  <block id="185bc3f8095d766c794bdd41f0125896" category="list-text">Administer * 에서 * Manage Users * 를 클릭한 다음 * Users * 를 클릭합니다.<block ref="d2bdc0b6c78349d7bdc1cf7fb2879eb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c9f12f65580038645556889012a30632" category="list-text">사용자 * 에서 * 새 사용자 * 를 클릭합니다.</block>
+  <block id="3da88cf6af55d7170501ef78158a7f77" category="list-text">다음 지침에 따라 요청된 정보를 입력합니다.</block>
+  <block id="3f0c6dbd0fb1d54aa515cab304560eb6" category="list-text">Role * 을 비워 둡니다.</block>
+  <block id="cc59714412371c6ad4bdf1cc018918c0" category="list-text">사용자 라이센스 * 에서 * Salesforce * 를 선택합니다.</block>
+  <block id="5cd006aaba9277134a4c9ee0b7f60325" category="list-text">프로파일 * 에서 * 시스템 관리자 * 를 선택합니다.</block>
+  <block id="980b3e48a43cbab96540bae26c461c85" category="inline-image-macro">이미지 표시 확인란이 선택되어 있습니다</block>
+  <block id="a876ffd9eada9d85c69b024f3808b957" category="list-text">다음을 확인하십시오.<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> 마케팅<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> 오프라인<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> 서비스 클라우드<block ref="aee30b7e652a64be7ac4e5973b334507" category="inline-image-macro-rx" type="image"></block> Salesforce CRM 콘텐츠 사용자.</block>
+  <block id="e192a00807793df4687aaeead0585814" category="list-text">사용자 * 에서 새로 만든 계정을 클릭하고 * 암호 재설정 * 을 클릭합니다.</block>
+  <block id="29fa51fc5af372f35b8d9c146cdfc61f" category="list-text">에 로그인합니다 <block ref="3160f0f7cb0e8d2f6a8692427bfa3347" category="inline-link-macro-rx"></block> 새 계정 자격 증명을 사용하여 계정을 활성화합니다.</block>
+  <block id="5dab448b471a72c2df165b5b17e3ac99" category="summary">SaaS Backup for Salesforce는 새로운 기능, 개선 및 버그 수정을 제공하는 새로운 릴리즈를 정기적으로 도입했습니다.</block>
+  <block id="3e248cf36a6ce8d04e21a6fbb7b087f0" category="doc">새로운 기능 및 업데이트</block>
+  <block id="a94884a92a91f310b096d503d4c8f13e" category="paragraph">이번 릴리스의 NetApp SaaS Backup for Salesforce에는 다음과 같은 새로운 기능과 업데이트가 추가되었습니다.</block>
+  <block id="a5667679a016ee66ef9bc45c1a173b3b" category="section-title">2020년 12월</block>
+  <block id="cad596f2fae1616364cc19389f6aa0c6" category="list-text">SaaS Backup for Salesforce는 이제 메타데이터를 복원합니다. 향상된 기능에는 조직 레벨 복원과 메타데이터에 대한 세분화된 레벨의 단일 또는 다중 항목 복원이 포함됩니다.</block>
+  <block id="f5cef6907f56b30e0f568a1ba8dd8f2e" category="paragraph">조직 레벨 메타데이터 복원</block>
+  <block id="c90fd64abafa6a46f787f3c5d2a82697" category="inline-image-macro">조직 수준 메타데이터 복원 옵션이 잘렸습니다</block>
+  <block id="194772dce50f151295c8782ef852d585" category="paragraph"><block ref="194772dce50f151295c8782ef852d585" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f39f33a5c4e660b4e9d13008388cd18" category="paragraph">세분화된 레벨의 메타데이터 복원</block>
+  <block id="275b049bdb5283a4cbc6b7d319514c59" category="inline-image-macro">메타데이터 옵션 내보내기 및 복원</block>
+  <block id="d8b48bd6bc0099aa6f8730407bf10ba1" category="paragraph"><block ref="d8b48bd6bc0099aa6f8730407bf10ba1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="803cf6672bbd3102ed2d5b6d1938a8f8" category="list-text">백업 요약 * 은 SaaS Backup for Salesforce의 기능 개선으로, 작성, 업데이트 및 삭제된 모든 레코드의 총 수를 제공합니다. 이를 통해 백업 레코드 수가 Salesforce 계정의 백업 레코드 수와 일치하는지 확인할 수 있습니다.</block>
+  <block id="671ebd011d9d70bc2e4334e7447fa464" category="paragraph"><block ref="671ebd011d9d70bc2e4334e7447fa464" category="inline-link-macro-rx"></block></block>
+  <block id="d4f4c40bd169a262676284f5da7a191a" category="section-title">2020년 10월</block>
+  <block id="f8c36fad2c56842660cbc3a68fb8f9d3" category="list-text">SaaS Backup for Salesforce는 이제 메타데이터를 백업합니다. 이 기능 향상은 백업, 객체 및 조직 레벨 복구, 사용자가 생성한 메타데이터의 지체를 포함합니다. UI에는 메타데이터 백업을 볼 수 있는 새로운 탭 * 메타데이터 유형 및 구성 요소 * 도 있습니다. 이 페이지에서는 이 새로운 기능에 대한 자세한 정보를 제공합니다.</block>
+  <block id="c3cce180e4fc0d096e7953732ab79ebf" category="inline-link-macro">메타데이터 활성화 및 비활성화</block>
+  <block id="8e0e14c17d18e01aa7ed5cbbbb55c3f9" category="paragraph"><block ref="dd83261389a825b7a9968af2880949e6" category="inline-link-macro-rx"></block>
+<block ref="8344e5256205a6eb6d53c776a87325a9" category="inline-link-macro-rx"></block></block>
+  <block id="6aded561490e45bb631ebd13c1f2124e" category="list-text">2020년 10월부터 데이터를 삭제할 수 있습니다. 메타데이터는 90일 후에 자동으로 제거됩니다.</block>
+  <block id="36e9a5fe1896ae34274e88633c34babe" category="paragraph"><block ref="f6727250bbfa913bef4e80906626d65b" category="inline-link-macro-rx"></block></block>
+  <block id="cf2dfa7ef96d78d1f3ec76316e1481d0" category="section-title">2020년 2월</block>
+  <block id="72b5a221286695b12b3b4f506b2d1145" category="paragraph">이제 개체 및 조직 수준에서 데이터를 내보낼 수 있습니다. 각 내보내기에 대해 이전 백업에서 첨부 파일, 결과 및 통계를 다운로드할 수 있습니다.<block ref="bd57f30b27e10897ea9932aca05fd4c5" category="inline-link-macro-rx"></block></block>
+  <block id="8e3a28cce9e7812fa7991d2061b45e89" category="summary">SaaS Backup for Salesforce의 유료 가입 계정을 시작하려면 활성화 코드가 있어야 하며 Salesforce 또는 NetApp SSO에 가입해야 합니다.</block>
+  <block id="8926faa4e5a10d0f0243615808a30b71" category="doc">SaaS Backup for Salesforce의 유료 가입으로 시작하는 워크플로우를 제공합니다</block>
+  <block id="79028fa3805f14c54fff1e4fccbeb3aa" category="paragraph">SaaS Backup for Salesforce의 유료 가입 서비스를 시작하려면 다음을 수행해야 합니다.</block>
+  <block id="f93df33bcec134de70aa6f5f5a9ca867" category="list-text">활성화 코드가 있습니다.</block>
+  <block id="8c34905d5c70d3e2cf5ac591ec127d37" category="inline-link-macro">스토리지에 대한 정보를 수집합니다</block>
+  <block id="d96294e3b794a6e1851d254effe6a6ed" category="list-text">SaaS Backup에서 제공하는 Amazon S3 스토리지를 사용할지, 아니면 BYOS(Bring Your Own Storage) 옵션을 사용할지 결정합니다. 필요한 경우 BYOS의 경우 <block ref="17fefe0a295872a20e7276f780f16c3a" category="inline-link-macro-rx"></block>.</block>
+  <block id="34c2ab8b5dfb53508ac77a55cb24e0b2" category="inline-link-macro">Salesforce 시스템 관리자 계정</block>
+  <block id="8a1c7af594037341c70b34dadfe51ab9" category="list-text">아직 가 없는 경우 <block ref="de3491e1e5533718eb28960e8e4590dd" category="inline-link-macro-rx"></block>, 하나를 작성합니다.</block>
+  <block id="91a1153d967981c76e72ac9228a502ea" category="inline-link-macro">SaaS Backup for Salesforce의 유료 구독</block>
+  <block id="4ec8988d3cadeb4f7299e59ce280e4d6" category="list-text">에 등록하십시오 <block ref="c58b2b151abcb48e6f3da17d6de1ac78" category="inline-link-macro-rx"></block> Salesforce 계정 또는 NetApp SSO 계정 사용</block>
+  <block id="8d177c4cb09434b5791bcca957274f83" category="inline-link-macro">Salesforce 서비스를 구성합니다</block>
+  <block id="eeb712d406d5bdd168d9b3c1cdc05801" category="list-text"><block ref="5a82c488b5acfb202b7ff96ce54f88be" category="inline-link-macro-rx"></block>.</block>
+  <block id="d183c69aa91976090cd5558b6f999ff1" category="inline-link-macro">운영 또는 샌드박스 인스턴스 추가</block>
+  <block id="f161545864f1ead6eb550e9674adc493" category="list-text"><block ref="fa22b64e4f5b4e42860f9c5fe9a0f0e2" category="inline-link-macro-rx"></block>.</block>
+  <block id="3417df8ad141c41e8bd0154225e2ad8b" category="inline-link-macro">첫 번째 백업을 예약합니다</block>
+  <block id="68a6584ad1da1315877db1f42d23dd5e" category="list-text"><block ref="b2b0bcf71580b7033cf70caa06b51445" category="inline-link-macro-rx"></block>.</block>
+  <block id="b8e829ebd372ab87150037dda628f405" category="inline-link-macro">데이터를 즉시 백업합니다</block>
+  <block id="090441fcbecad289110be4d66cf01903" category="list-text">필요한 경우 <block ref="b9931efd210cd2417c5f926b414deb9e" category="inline-link-macro-rx"></block>.</block>
+  <block id="16daf462577519b0d19839a181d682b9" category="inline-image-macro">유료 가입 등록 프로세스의 워크플로</block>
+  <block id="01e3b63e7958fc3e629477d4b4d8a7b0" category="paragraph"><block ref="01e3b63e7958fc3e629477d4b4d8a7b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="38f629e4063339d47faa2680fb5430b6" category="summary">SaaS Backup for Salesforce를 사용하여 이전에 백업한 데이터를 복원할 수 있습니다.</block>
+  <block id="8a6db028191283c703eed35a59f0f74c" category="paragraph">SaaS Backup for Salesforce를 사용하여 이전에 백업한 데이터 및 메타데이터를 복원할 수 있습니다.</block>
+  <block id="adf8947a481ea3232bf3da08253b821d" category="section-title">가장 최근 백업을 복원하는 중입니다</block>
+  <block id="3c116887cfb620b2ca4a1acf0745d5e7" category="list-text">보호된 인스턴스 수 * 를 클릭합니다.</block>
+  <block id="79c4d77aceeed505ab8121e308ff5b4a" category="list-text">조직의 이름을 클릭합니다.<block ref="1817e809bf9d7df296a1d69c4e0dda36" category="inline-image-macro-rx" type="image"></block>개체 목록이 표시됩니다. 복구 가능한 객체는 기본적으로 표시됩니다. 복구할 수 없는 객체를 보려면 “Include Non-Recoverable objects(복구할 수 없는 객체 포함)"를 선택합니다. 복구할 수 없는 객체는 회색 아이콘으로 표시됩니다. 빨간색 아이콘은 현재 백업에서 백업하지 못했으나 이전 백업에서 복구할 수 있는 항목 객체를 나타냅니다.</block>
+  <block id="f0e741adf1f4636010ab7912a90e0d62" category="cell">복구 가능 객체</block>
+  <block id="c9896954c6582a1b229339c2a97ed94c" category="cell"><block ref="c9896954c6582a1b229339c2a97ed94c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad52f7abc0c5621c70b3fe3794068584" category="cell">복구할 수 없는 객체</block>
+  <block id="a447cb0397bd6db105ae836d1ee69e2a" category="cell"><block ref="a447cb0397bd6db105ae836d1ee69e2a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9c0e39cb5624fcf0b522617c02adfc86" category="cell">개체 실패</block>
+  <block id="81f36c287489cb43d6cf4e516aca36bb" category="cell"><block ref="81f36c287489cb43d6cf4e516aca36bb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7665370e8e026859a282e595079156d" category="list-text">복원할 개별 레코드가 포함된 개체를 클릭한 다음 특정 레코드를 검색합니다.</block>
+  <block id="6b351fbbc96bbe0acc4f58cc5cd8c782" category="list-text">복원 * 을 클릭합니다.<block ref="6a0129bd981fc3ad0e02f2927f1a7ff1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c26a6eb284324a812b915bb8e0b4eb68" category="list-text">복원 옵션을 선택합니다.</block>
+  <block id="4f580e38623f62e51cd2cefb3b789d9b" category="list-text">* 덮어쓰기로 복원 * 이 기본적으로 선택됩니다. 이 옵션은 복원하려는 레코드의 기존 버전을 대체합니다. 레코드의 현재 버전과 복원된 버전을 유지하려면 이 옵션을 선택 취소합니다.</block>
+  <block id="fa7d0b38bf1d841cb6d413219f3c8af7" category="list-text">* 관계 복원 * 상위 레코드와 함께 상위 레코드의 하위 레코드를 최대 5개까지 복원합니다. 관계를 복원하도록 선택하지 않으면 상위 레코드만 복원됩니다.</block>
+  <block id="2bb1a2ca659e89cf061d22c74456e4dc" category="list-text">* 데이터 내보내기 * 를 사용하면 특정 시점에 백업에서 데이터를 내보낼 수 있습니다. 개체 수준 또는 조직 수준에서 데이터를 내보낼 수 있습니다. 데이터 내보내기 기능에 대한 자세한 내용은 를 참조하십시오 <block ref="bd57f30b27e10897ea9932aca05fd4c5" category="inline-link-macro-rx"></block>.</block>
+  <block id="3d644191b8439be769793e5b4338ebd8" category="admonition">내보내기 작업은 완료 후 7일 동안만 사용할 수 있습니다.</block>
+  <block id="ccdd51c8a17863ce99613ded0df18c8f" category="list-text">제출 * 을 클릭합니다.<block ref="003ffff3e7bcb2f603c1adba17df45a8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8a4ab2bb9b495040fdb7c88debb397b5" category="section-title">이전 백업에서 복원합니다</block>
+  <block id="b127f46ec5d0998e11976258a86c1d00" category="list-text">운영 인스턴스 * 또는 * Sandbox 인스턴스 * 를 클릭합니다.<block ref="0652f08cba27dfe3987a4e25eac06e4d" category="inline-image-macro-rx" type="image"></block>
+<block ref="b8961c53d86fae2a6712f3d9f5271f84" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3bb7cf21162455d4d3d958f085ec5852" category="list-text">백업 기록 보기 * 를 클릭합니다.</block>
+  <block id="195f666fab10353a7efc8d963642607b" category="list-text">특정 시간 범위에 대한 백업을 보거나 특정 날짜에 대한 백업을 선택하려면 선택합니다.</block>
+  <block id="a4a4358180c5c021fbef8cbc31e589a1" category="list-text">특정 시간 범위의 백업을 선택하려면 오른쪽 상단 모서리에서 * Show Selected Backups * (선택한 백업 표시 *) 옆의 드롭다운 메뉴를 클릭하고 미리 정의된 날짜 범위 중 하나를 선택합니다.<block ref="14d89ef23a36163ec3edac4f43fddec8" category="inline-image-macro-rx" type="image"></block>선택한 범위 동안 발생한 백업 목록이 표시됩니다.</block>
+  <block id="a8c25a29c5bda9a5223c09c83c61fc8f" category="list-text">특정 날짜의 백업을 선택하려면 달력에서 백업 날짜를 클릭한 다음 원하는 특정 백업을 선택합니다. 빨간색 원 안의 숫자는 해당 날짜에 수행된 백업의 수를 나타냅니다. 개별 녹색 원은 개별 백업을 나타냅니다.</block>
+  <block id="b56f1944dfa4fcbfe001c9e029b44e93" category="list-text">복원할 개별 레코드가 들어 있는 개체를 클릭한 다음 특정 레코드를 검색합니다.</block>
+  <block id="9173e66cc6de387eb79375a7e947c90a" category="list-text">제출 * 을 클릭합니다. 선택한 조직이 작업 대기열에 배치되고 있음을 나타내는 메시지가 나타납니다.</block>
+  <block id="7638ba7dd85a6af947a9ff3433ed1d3a" category="section-title">메타데이터 복원 중</block>
+  <block id="a4613816143e18f846e3015a4e661881" category="paragraph">메타데이터를 조직 수준 또는 세부 수준에서 복원할 수 있습니다.</block>
+  <block id="a652e5b831c8000fa9015a431df04b5c" category="section-title">조직 레벨 메타데이터 복원</block>
+  <block id="a51c1ff158fc7463dfc53f6537d9a1de" category="list-text">서비스 * 로 이동합니다.</block>
+  <block id="a0109cde0d3bb01c517c86cc40872c22" category="list-text">운영 인스턴스 * 또는 * Sandbox 인스턴스 * 를 선택합니다.</block>
+  <block id="82d060b2d9bd2592eaab16c2a2002e24" category="list-text">보호된 * 인스턴스의 수를 클릭합니다.</block>
+  <block id="b4fa8b53fbbdaabd05af70acf49f13f5" category="list-text">조직의 이름을 클릭합니다.</block>
+  <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">복원 * 을 클릭합니다.</block>
+  <block id="0e29911c075e29d2f52fcf8c94b9123e" category="list-text">복원 옵션을 선택합니다.</block>
+  <block id="1b72fb029709b56f99d13f2d09497620" category="list-text">메타데이터를 내보내려면 * 메타데이터 내보내기 * 를 선택합니다. zip 파일이 생성됩니다.</block>
+  <block id="55a44e087a271e69ad074bf4dd9476b8" category="admonition">메타데이터 내보내기 작업은 완료 후 30일 동안 사용할 수 있습니다.</block>
+  <block id="4a7c1c167bb54449f29b25eb5e435d3c" category="list-text">메타데이터를 복원하려면 * 메타데이터 복원 * 을 선택합니다.</block>
+  <block id="0a16681cfbc11c1e3ab8b2028259b888" category="section-title">세분화된 레벨의 메타데이터 복원</block>
+  <block id="7d8bbcc98602d1953273468f90996794" category="list-text">메타데이터 유형 및 구성 요소 * 탭을 클릭합니다. 메타데이터 유형 목록이 표시됩니다.</block>
+  <block id="0b44a282fea9f318d6aa6fe35f14e417" category="list-text">복원할 메타데이터 유형을 선택합니다.</block>
+  <block id="ddf2845ff5cfefc8a98c1d794b252068" category="inline-image-macro">메타데이터 복원 옵션 내보내기 및 복원</block>
+  <block id="26d55f3915c82135ff8ac17c10c2ded7" category="paragraph"><block ref="26d55f3915c82135ff8ac17c10c2ded7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="526dd7dee7bf995d4ca1ca3a1fb74a9b" category="summary">SaaS Backup for Salesforce에 등록한 후 Salesforce 서비스를 구성해야 합니다.</block>
+  <block id="80962e03c06dfdff9a31a796c47d212f" category="doc">Salesforce 서비스 구성</block>
+  <block id="fc7cc31d6d7b9db0b473d8faa623dbba" category="list-text">왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다<block ref="5ba64ff8e229cabdd4607f87216788c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8455d8a5e713218c9f2ce93d3e7311a6" category="list-text">을 클릭합니다 <block ref="95bc20c61d9cbc7f39ac68f838698eaf" category="inline-image-macro-rx" type="image"></block> 를 눌러 서비스를 추가합니다.</block>
+  <block id="e0aa3b79f010ebaddc155e727879dc26" category="list-text">Salesforce * 를 선택합니다.<block ref="707e357a2568c75fffde97647b56f9f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58382df9c375e0d24e8ddc67cd629410" category="list-text">구독 유형을 선택합니다.</block>
+  <block id="860d00e1838dbba99da994be82eb9b69" category="list-text">활성화 코드를 입력합니다.</block>
+  <block id="e2908bf7a4f9e310d6e8fe53176293f7" category="list-text">백업 대상을 선택합니다.</block>
+  <block id="71c5c5a94605f4a4155b6089e055bc93" category="summary">SaaS Backup for Salesforce 무료 평가판으로 시작하려면 활성화 코드를 얻고 Salesforce 또는 NetApp SSO에 가입해야 합니다.</block>
+  <block id="f15c9896c3ef15704890b6a5a219fb97" category="doc">SaaS Backup for Salesforce 무료 평가판을 신청하십시오</block>
+  <block id="03619911de9826065a89270743454efe" category="paragraph">SaaS Backup에 Salesforce 또는 NetApp SSO 계정을 사용하여 등록할 수 있습니다.</block>
+  <block id="e67ab8afe9b82db3e13dcce42bf6e65d" category="paragraph">등록 프로세스를 완료하려면 SaaS Backup 라이센스 구입 시 제공된 활성화 코드 또는 무료 평가판 버전에 등록할 때 제공된 활성화 코드가 있어야 합니다.</block>
+  <block id="07c5a06a93547c5a14078818c4745634" category="list-text">평가판 라이센스가 있는 경우 * Preview *(미리 보기 *)를 클릭하고 활성화 코드를 입력한 후 * Next *(다음 *)를 클릭합니다.</block>
+  <block id="b4193608135d9233b168d0e451255254" category="summary">SaaS Backup for Salesforce의 무료 평가판 계정을 시작하려면 무료 평가판 활성화 코드가 있어야 하며 Salesforce 또는 NetApp SSO에 등록해야 합니다.</block>
+  <block id="38caafd7007da7f0508b1706ce6ee460" category="doc">SaaS Backup for Salesforce의 무료 평가판을 사용하기 위한 워크플로우</block>
+  <block id="da2266c46c524e419ee95e2931fa6108" category="paragraph">SaaS Backup for Salesforce의 무료 평가판을 시작하려면 다음을 수행해야 합니다.</block>
+  <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">무료 평가판 제한</block>
+  <block id="c876f58b8d35af05f223ac8e2eb6dbf1" category="list-text">에 유의하십시오 <block ref="bd35fc07ee955c0b2452281bf42d6ef2" category="inline-link-macro-rx"></block>.</block>
+  <block id="cd80e72aa996af149a742971d238d415" category="inline-link-macro">무료 평가판 활성화 코드</block>
+  <block id="9df1fd0a9f40b2675e1b8568e405f455" category="list-text">에 등록하십시오 <block ref="b85aed5fd7ed230909decf3eb950a4eb" category="inline-link-macro-rx"></block>.</block>
+  <block id="06ca336a4b4c2fe4a25ef0d462438ff7" category="inline-link-macro">Salesforce 개발자 에디션 계정</block>
+  <block id="7a3b20330f1c2799e878e4fa289e5f8d" category="list-text">필요한 경우 에 등록하십시오 <block ref="777d7faed71ecb06389414ef68e6759d" category="inline-link-macro-rx"></block>.</block>
+  <block id="3fd1bca5d83b4bd4eb3bcdbd102a17db" category="inline-link-macro">Salesforce sandbox 계정</block>
+  <block id="59c1ec47ec4e5f35c6e8fd0b4bc2f813" category="list-text">필요한 경우 에 등록하십시오 <block ref="b894c5044ed87beb654f53afaf59252d" category="inline-link-macro-rx"></block>.</block>
+  <block id="448a319ca49e8060234755b6e24751f9" category="inline-link-macro">SaaS Backup for Salesforce 무료 평가판</block>
+  <block id="08c53df332ffeb4ded9876ab55dd599e" category="list-text">에 등록하십시오 <block ref="a3152a2658624e614eeec22d4cf67c4c" category="inline-link-macro-rx"></block> Salesforce 계정 또는 NetApp SSO 계정 사용</block>
+  <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">무료 평가판 등록 프로세스의 워크플로</block>
+  <block id="1efa6b8fbebb666fbb9589d802651652" category="paragraph"><block ref="1efa6b8fbebb666fbb9589d802651652" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c9fd4587b1eec68e886a539b71faf65" category="summary">활동 로그를 .csv 파일로 다운로드할 수 있습니다.</block>
+  <block id="38c3c04a063c42a8ca480029d7cad55f" category="doc">활동 로그 다운로드 중</block>
+  <block id="5d5bf6c891d643f8d91b1416c4836a4f" category="list-text">왼쪽 창 탐색 창에서 * Reporting * (보고 *)을 클릭합니다.<block ref="6b1016787a1b640ac9aa842cfb3b4655" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="704629eb1f04f95f71dae30fee63dd7d" category="list-text">활동 로그 * 를 클릭합니다.</block>
+  <block id="aad8a4ed987e820a5ab9d67a87197b53" category="list-text">다운로드 * 를 클릭합니다.<block ref="affa188993e965a76789f349fc34b113" category="inline-image-macro-rx" type="image"></block>활동 로그는 .csv 파일로 다운로드됩니다.</block>
+  <block id="f77373d8dbe5ffc4ac811634d33a4576" category="summary">SaaS Backup for Salesforce 내에서 완료, 취소 또는 실패한 모든 작업 목록을 볼 수 있습니다.</block>
+  <block id="36a369f196cf70137545e71a87a40978" category="doc">작업 내역 보기</block>
+  <block id="eb5443b44bfe58eaf78c1d584a6a537d" category="list-text">왼쪽 창 탐색 창에서 * Reporting * (보고 *)을 클릭합니다.<block ref="6b1016787a1b640ac9aa842cfb3b4655" category="inline-image-macro-rx" type="image"></block>작업 기록이 표시됩니다.</block>
+  <block id="c91d53cb367baea6f91c3c6f9ba12b49" category="list-text">오른쪽 위 모서리에서 * Filter * 를 클릭합니다.<block ref="211b6fa5ec0b2e438f477c61db04599c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="85f8ceb73a1807587f30f99baa144ee8" category="list-text">보고 결과를 구체화하는 데 사용할 필터를 선택합니다. 백업 정책, 서비스 또는 작업 유형별로 필터링할 수 있습니다.</block>
+  <block id="db66ae1903eff3f8128a43125b9609a9" category="list-text">검색 * 상자 안을 클릭하고 결과를 보려는 특정 백업 정책, 서비스 또는 작업 유형을 선택합니다. 필요에 따라 필터를 추가합니다.<block ref="dfc523264beb960509594f07107a5f20" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5bc78b1267d6eec17e7aaa5b202fecff" category="list-text">필터 적용 * 을 클릭합니다.</block>
+  <block id="212304543059a60a8a3e21f0af1f0b73" category="summary">NetApp SaaS Backup for Salesforce 커뮤니티 포럼 및 기술 자료 문서에서 도움을 얻고 더 많은 정보를 확인할 수 있습니다.</block>
+  <block id="f22c49ab181fc5052dc2afb2f7870c8a" category="paragraph">이러한 리소스는 탐색 메뉴의 * Support * 링크를 통해 SaaS Backup 내부에서 액세스할 수 있습니다.</block>
+  <block id="b24ecb506263a514c17f950224cec618" category="paragraph">또한 SaaS Backup 지원 팀에 saasbackupsupport@netapp.com 으로 이메일을 보낼 수도 있습니다.</block>
+  <block id="21e1b756767837b952a974f265499c2c" category="summary">NetApp SaaS Backup for Salesforce는 Salesforce 데이터를 Amazon S3 스토리지에 백업하는 안전한 클라우드 네이티브 서비스입니다. SaaS Backup은 위협 또는 실수로 인한 삭제로부터 데이터를 보호합니다.</block>
+  <block id="7d83bbd7603ed5e1579ee52382edf594" category="doc">NetApp SaaS Backup for Salesforce 개요</block>
+  <block id="1da10ef1876c10e5daed7941b10ea0e2" category="inline-image-macro">SaaS Backup for Salesforce의 그래픽 개요</block>
+  <block id="b3989b22fa2007371aa8bc591d256386" category="paragraph"><block ref="c989eb06241e0885e541490ebf7d53ef" category="inline-image-macro-rx" type="image"></block>참고: SaaS Backup for Salesforce의 개인 미리 보기에서 일반 제품 가용성으로 업그레이드하는 경우 개인 미리 보기 데이터는 유지되지 않습니다.</block>
+  <block id="68bc97430a8a7d4dd4a26bb743ac17d3" category="paragraph">SaaS Backup for Microsoft Office 365에 관심이 있는 경우 설명서를 찾을 수 있습니다 <block ref="0271f2d022fdc7f7aeab59d4e396f81d" category="inline-link-macro-rx"></block>.</block>
+  <block id="7c991d005f914ce2a066331555da8416" category="summary">SaaS Backup for Salesforce를 사용하여 이전에 백업한 데이터를 비교하고 복원할 수 있습니다.</block>
+  <block id="1a7742e5d7790095a7535e74039ce15a" category="doc">백업 차이점 비교 및 복원</block>
+  <block id="820808359f2dba65062e92c4315c38fa" category="paragraph">SaaS Backup for Salesforce를 사용하여 백업 차이를 비교하고 복원할 수 있습니다.</block>
+  <block id="31fc218e2f94beef0d5cf31b25d2fac2" category="inline-image-macro">작업 버튼</block>
+  <block id="ea41c668598cccc6da061076c645b4db" category="list-text">왼쪽 창 탐색에서 * 작업 * 을 클릭합니다.<block ref="a00d6cf39db2b3fc74cfb953211c2a86" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75166b4883200fab869e1b76dbf2b602" category="list-text">최근 완료된 작업 * 에서 백업을 비교할 객체가 포함된 백업을 선택합니다.</block>
+  <block id="8383a8832aa6447282829782c7c0cbf3" category="list-text">조직을 클릭합니다.</block>
+  <block id="66c7ca2c96168b698ffe1cc97df2c5ac" category="list-text">백업을 비교할 객체를 선택합니다.</block>
+  <block id="6483c07e7bd0bf50c6159055f0679aed" category="inline-image-macro">비교 아이콘이 강조 표시된 스크린샷</block>
+  <block id="bee515300b16fdfcec655223d5b847dc" category="list-text">비교 아이콘을 클릭합니다.<block ref="dad1c62f0e14287d78bbe63b94250db4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="46c21254a0427db73808f39459f6a611" category="list-text">Previous Backup * (이전 백업 *) 옆에서 비교에 사용할 백업의 첫 번째 날짜를 선택합니다.</block>
+  <block id="fe01e7bd0e25e68dd603bdcc75a25fa7" category="list-text">현재 백업 * 옆에서 비교에 사용할 두 번째 백업 날짜를 선택합니다.</block>
+  <block id="0212382e69be16297c3177d7fea227cd" category="inline-image-macro">비교 버튼</block>
+  <block id="52baedaec06a2243840a1343b354b5ca" category="list-text">Compare * 를 클릭합니다.<block ref="1facb168eb1e82777f723c86c2b90e0c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f8d413dad06f1029158fcfa150a3f78" category="admonition">선택한 두 백업 간에 차이가 없으면 비교 작업이 생성되지 않습니다.</block>
+  <block id="c8314932e95d0cfda713487da83dae98" category="list-text">작업 진행률 보기 * 를 클릭합니다.</block>
+  <block id="7afed2513cb9c27b585f7d93f0f68b92" category="paragraph">작업이 완료되면 * 최근 완료된 작업 * 에 나타납니다.</block>
+  <block id="83dc371736db1ac195aad053d561c38b" category="inline-image-macro">완료된 비교 작업 결과 클릭 위치</block>
+  <block id="aa4d211707926f12044ffc71609814ac" category="list-text">성공한 조직 수 또는 숫자를 클릭합니다.<block ref="1284ce252b6ec7d523482a1b4213623f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1ae9ef5f3282256d240fc7525491ac9" category="inline-image-macro">비교 작업 결과 창</block>
+  <block id="6482d9b31f7e1a9aed3f4cd57adc82b0" category="paragraph">작업 상태를 보여주는 창이 나타납니다.<block ref="9dde3bdc539a315079978dbf64e623c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="977d0f76b68dd473cff17a52cf4e7bf5" category="list-text">결과를 보려면 개체 이름을 클릭합니다. 선택한 두 백업 사이에 객체에 생성, 업데이트 및 삭제된 레코드 수와 함께 비교 작업 요약이 표시됩니다. 비교 작업 세부 정보를 다운로드할 수 있습니다.</block>
+  <block id="ddf4da8212650068f68aa72b1deb4f6f" category="inline-image-macro">다운로드 비교 결과를 나타내는 아이콘입니다</block>
+  <block id="3899bf4f4dc2b334eb58a37faf722883" category="list-text">비교 작업 세부 정보를 다운로드하려면 를 클릭합니다 <block ref="7d96c55ac97403a1d7df04d3d156e96b" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="1296121ea5618e39b0f71a0e2a9b6a55" category="list-text">파일 압축을 풀어 결과를 확인합니다.</block>
+  <block id="041f67ea175f97633aa134a06a5c1231" category="list-text">restore * 를 클릭합니다.</block>
+  <block id="218a6df2de43ccf996900a6139e11d59" category="list-text">업데이트된 모든 레코드를 복원하려면 * Updated * 를 선택합니다. 삭제된 모든 레코드를 복원하려면 * 삭제됨 * 을 선택합니다. 옵션을 사용할 수 있는 경우 두 옵션을 모두 선택할 수도 있습니다.</block>
+  <block id="bb033ba9af8ba2a48b881b33c9a548c7" category="list-text">sumbit * 를 클릭합니다.</block>
+  <block id="0b73755473135196fcafff58d661dea2" category="paragraph">덮어쓰기 및 관계 없이 작업이 복원됩니다.</block>
+  <block id="bc44b244e89d78c488fbb50eacd57268" category="summary">SaaS Backup for Salesforce 시작하기 에서는 활성화 코드를 얻고 Salesforce 또는 NetApp SSO에 등록하는 것이 포함됩니다.</block>
+  <block id="d7a9778781c089899877b7fa42954054" category="doc">SaaS Backup for Salesforce의 무료 평가판에 등록 코드를 등록합니다</block>
+  <block id="f470843ae71b7ed6a3bc9a3158c4e09c" category="paragraph">SaaS Backup for Salesforce를 시작하려면 활성화 코드를 얻고 등록해야 합니다. 영업 담당자 또는 채널 파트너로부터 활성화 코드를 받았을 수 있습니다. 그렇지 않은 경우 무료 평가판에 등록하여 정품 인증 코드를 받을 수 있습니다.</block>
+  <block id="7a9fa326ac68f770af3f02cb8b0660c8" category="list-text">을 클릭합니다<block ref="913dc416f3dd95b8b5cde31c5a411c18" category="inline-link-rx"></block> 를 방문하여 SaaS Backup for Salesforce 무료 평가판 URL로 이동하십시오.</block>
+  <block id="433b97efa07fda311a07a4b9be9f9713" category="list-text">요청된 등록 정보를 입력하고 * Submit * 을 클릭합니다.</block>
+  <block id="dde8701faa7baa31ea63a4bd8b5abae2" category="paragraph">양식을 제출하면 무료 평가판 활성화 코드가 포함된 이메일을 받게 됩니다. SaaS Backup with Salesforce에 등록할 때 활성화 코드가 필요합니다.</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link-macro">SaaS Backup에 대한 고지 사항</block>
+  <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
+  <block id="d703cfe8f00733a4a1e84640b833af26" category="summary">Salesforce에 대한 메타데이터 백업을 사용하거나 사용하지 않도록 설정할 수 있습니다.</block>
+  <block id="35fd26aa5bb4717a9cedd4f8e6485946" category="doc">메타데이터 백업 설정 및 해제</block>
+  <block id="1cf52111c6baba45076ba1fc4312422d" category="section-title">메타데이터 백업 설정</block>
+  <block id="c47230d121fb1df4832e6b65fd99a784" category="paragraph">메타데이터 백업을 설정하면 테넌트 계정 내의 모든 조직에 메타데이터 백업이 제공됩니다.</block>
+  <block id="e93e28976828b8a55b7160afd23d7bc8" category="list-text">을 클릭합니다 <block ref="89149122f375b234b8eecb4e23756acb" category="inline-image-macro-rx" type="image"></block> 를 클릭하고 * 서비스 설정 * 에서 * Salesforce * 를 선택합니다.</block>
+  <block id="3249ebaceb7ef786e61cefc913291d16" category="inline-image-macro">Salesforce 설정</block>
+  <block id="d9ecdf140b442d60d0563653e34969cb" category="paragraph"><block ref="d9ecdf140b442d60d0563653e34969cb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78d72fce1a13c80af469d3e8900feff5" category="list-text">기능을 켜려면 * 메타데이터 백업 활성화 * 를 클릭합니다. 테넌트 레벨에서 활성화된 후에는 모든 조직의 메타데이터가 백업됩니다.</block>
+  <block id="dc0da323f67e851ecfa2c3478bb5b18f" category="section-title">메타데이터 백업 해제</block>
+  <block id="5555eb9c4e6aefb5c8b787f5a9fa1d6f" category="paragraph">조직 수준에서 메타데이터 백업을 비활성화할 수 있습니다. 모든 조직에서 메타데이터 백업을 사용하도록 설정한 후에는 메타데이터 백업이 없는 조직을 제어할 수 있습니다.</block>
+  <block id="2eec5d43f26cf86ac573e1c057227e1b" category="list-text">메타데이터 백업을 비활성화하려면 * 서비스 * 로 이동하십시오.</block>
+  <block id="da396169287a2765cffcc450d7b061c2" category="list-text">보호된 * 인스턴스의 수를 선택합니다.</block>
+  <block id="5ce2c87c0e941acdc3c6cc1198f886b2" category="list-text">메타데이터 백업을 비활성화할 조직을 선택합니다.</block>
+  <block id="789a5df7406fcd45b3b8c623e69ee6b6" category="list-text">기능을 끄려면 * Metadata Backup * 을 클릭합니다.</block>
+  <block id="8654b0089318be3208f78ed1708315ab" category="inline-image-macro">메타데이터 백업을 비활성화합니다</block>
+  <block id="ce4e3b64b2712f7097688a51e5696aa1" category="paragraph"><block ref="ce4e3b64b2712f7097688a51e5696aa1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0cab6849e5d7af24b1ddfe269c63c898" category="summary">SaaS Backup for Salesforce 내에서 수행된 모든 활동 목록을 볼 수 있습니다.</block>
+  <block id="4637fa9876f47993b8689ad910800aa5" category="doc">활동 로그 보기</block>
+  <block id="042a66ec052ba0fe36624b3150dca983" category="list-text">결과를 필터링하려면 * Filter * 를 클릭합니다.<block ref="211b6fa5ec0b2e438f477c61db04599c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a6fbc4d6a3101b98aea503a9a297c7fd" category="list-text">보고 결과를 구체화하는 데 사용할 필터를 선택합니다. 서비스 또는 이벤트별로 필터링할 수 있습니다.<block ref="6c5989be31be629d7812e5ee160eae95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d3d9515781b0efbc8727dcb8059e9548" category="list-text">검색 * 상자 안을 클릭하고 결과를 보려는 특정 서비스 또는 이벤트를 선택합니다. 필요에 따라 필터를 추가합니다.</block>
+  <block id="bfb77f116f394c7d1254e3a686773c5c" category="sidebar">NetApp SaaS Backup for Salesforce 문서</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
+  <block id="cb59b87e00d11222bfd9159d0d23836f" category="sidebar">시작하기</block>
+  <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">워크플로우</block>
+  <block id="83f69d7470a1523248c6b5a55a8f0bbb" category="sidebar">무료 평가판 활성화 코드를 등록하는 중입니다</block>
+  <block id="5ef08c73201f1821ef7151589ecd7af5" category="sidebar">BYOS 옵션에 대한 정보를 수집합니다</block>
+  <block id="9dde6a3e21483b29f5c49cd10bf8c403" category="sidebar">SaaS Backup for Salesforce 무료 평가판 등록</block>
+  <block id="e0768bfee463b944fe6eac1f58dc7acd" category="sidebar">새 운영 또는 샌드박스 인스턴스 추가</block>
+  <block id="6cc1281916258dd43edd5fa4ee4b2824" category="sidebar">첫 번째 백업 예약</block>
+  <block id="b4601ecc2aaf0383c7cb700c4fd548f9" category="sidebar">SaaS Backup for Salesforce 관리</block>
+  <block id="c73860d21c3b18049dd79f53d4300814" category="sidebar">데이터 보기</block>
+  <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">법적 고지</block>
+</blocks>

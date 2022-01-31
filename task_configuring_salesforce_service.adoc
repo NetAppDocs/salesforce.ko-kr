@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_salesforce_service.html 
+keywords: netapp, saas backup, salesforce, configuring, service 
+summary: SaaS Backup for Salesforce에 등록한 후 Salesforce 서비스를 구성해야 합니다. 
+---
+= Salesforce 서비스 구성
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Salesforce에 등록한 후 Salesforce 서비스를 구성해야 합니다.
+
+.단계
+. 왼쪽 창 탐색에서 * 서비스 * 를 클릭합니다image:services.jpg[""]
+. 을 클릭합니다 image:bluecircle_icon.jpg[""] 를 눌러 서비스를 추가합니다.
+. Salesforce * 를 선택합니다.image:salesforce_icon.jpg[""]
+. 구독 유형을 선택합니다.
+. 활성화 코드를 입력합니다.
+. 백업 대상을 선택합니다.
+. 다음 * 을 클릭합니다.
+. 저장 * 을 클릭합니다.
+

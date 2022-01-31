@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_purging_data_&_metadata.html 
+keywords: netapp, saas backup, salesforce, sandbox, production, instance, purge, purging, purging data, metadata, retention, metadata retention, retain and purge, show purged list 
+summary: Salesforce 조직에서 데이터를 제거할 수 있습니다. 
+---
+= 데이터 및 메타데이터를 제거하는 중입니다
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Salesforce 조직에서 데이터를 제거할 수 있습니다. 조직 수준에서 데이터를 제거하는 작업은 * 계정 설정 * 에서 관리합니다.
+
+SaaS Backup for Salesforce는 메타데이터 보존 및 보관을 자동으로 관리합니다. 메타데이터는 90일 동안 유지됩니다. 90일이 지나면 메타데이터가 제거됩니다.
+
+
+
+== 데이터 삭제
+
+사용되지 않는 Salesforce 조직과 같은 특정 조직에서 데이터를 제거하는 옵션이 항상 있습니다.
+
+데이터를 퍼지하여 운영 또는 샌드박스 인스턴스를 새로 고칠 수 있습니다.
+
+다른 운영 또는 샌드박스 인스턴스를 추가할 수도 있습니다. 이렇게 하려면 운영 인스턴스 또는 샌드박스 인스턴스를 제거해야 합니다.
+
+.단계
+. 을 클릭합니다 image:icon_gear.gif["기어 아이콘"] 을 클릭한 다음 을 클릭합니다 image:account_settings.gif["계정 설정"].
+. 유지 및 제거 * 를 클릭합니다.
+. 유지 및 제거 * 에서 * 데이터 삭제 * 로 스크롤합니다.
+. 공급자 유형 * 및 * 서비스 이름 * 을 선택합니다.
+. 조직 ID를 검색하거나 선택합니다.
+. 저장 * 을 클릭합니다. 삭제를 확인하거나 취소하라는 메시지가 나타납니다.
+. 제거를 확인하려면 * 예 * 를 클릭합니다. 예 * 를 클릭하면 제거된 데이터를 최대 7일 동안 복구할 수 있습니다.
+. 예약된 제거 목록을 보려면 * 제거된 목록 표시 * 를 클릭합니다.
++
+image:purged_list_example.gif["삭제된 목록의 예"]
+
+

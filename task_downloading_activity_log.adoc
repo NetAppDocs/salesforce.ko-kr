@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_activity_log.html 
+keywords: netapp, saas backup, salesforce, viewing, downloading, activity, log 
+summary: 활동 로그를 .csv 파일로 다운로드할 수 있습니다. 
+---
+= 활동 로그 다운로드 중
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+활동 로그를 .csv 파일로 다운로드할 수 있습니다.
+
+.단계
+. 왼쪽 창 탐색 창에서 * Reporting * (보고 *)을 클릭합니다.image:reporting.jpg[""]
+. 활동 로그 * 를 클릭합니다.
+. 다운로드 * 를 클릭합니다.image:download.jpg[""]활동 로그는 .csv 파일로 다운로드됩니다.
+

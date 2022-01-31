@@ -1,0 +1,99 @@
+---
+settings:
+  name: SaaS Backup For Salesforce
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: NetApp SaaS Backup for Salesforce 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/reference_new_salesforce.html"
+    - title: 알려진 문제 및 제한 사항
+      url: "/concept_kpls.html"
+  - title: 개요
+    url: "/concept_overview.html"
+  - title: 시작하기
+    entries:
+    - title: 무료 평가판 시작하기
+      entries:
+      - title: 워크플로우
+        url: "/concept_free_trial_workflow.html"
+      - title: 무료 평가판 제한
+        url: "/reference_free_trial_restrictions.html"
+      - title: 무료 평가판 활성화 코드를 등록하는 중입니다
+        url: "/task_registering_free_trial_activation_code.html"
+      - title: Salesforce 무료 개발자 에디션 계정을 등록하는 중입니다
+        url: "/task_signing_up_free_developer.html"
+      - title: Salesforce 무료 sandbox 계정에 등록 중입니다
+        url: "/task_signing_up_free_sandbox.html"
+      - title: Salesforce 시스템 관리자 계정 만들기
+        url: "/task_creating_system_admin.html"
+      - title: BYOS 옵션에 대한 정보를 수집합니다
+        url: "/task_gather_information_byos.html"
+      - title: SaaS Backup for Salesforce 무료 평가판 등록
+        url: "/task_signing_up_free_trial.html"
+      - title: Salesforce 서비스 구성
+        url: "/task_configuring_salesforce_service.html"
+      - title: 새 운영 또는 샌드박스 인스턴스 추가
+        url: "/task_adding_new_instance.html"
+      - title: 첫 번째 백업 예약
+        url: "/scheduling_first_backup.html"
+      - title: 즉시 백업 수행
+        url: "/task_performing_immediate_backup.html"
+      - title: 무료 평가판에서 업그레이드
+        url: "/task_upgrading_from_trial.html"
+    - title: 유료 구독 시작하기
+      entries:
+      - title: 워크플로우
+        url: "/concept_paid_subscription_workflow.html"
+      - title: BYOS 옵션에 대한 정보를 수집합니다
+        url: "/task_gather_information_byos.html"
+      - title: Salesforce 시스템 관리자 계정 만들기
+        url: "/task_creating_system_admin.html"
+      - title: SaaS Backup for Salesforce의 유료 구독에 등록
+        url: "/task_signing_up_paid.html"
+      - title: 즉시 백업 수행
+        url: "/task_performing_immediate_backup.html"
+  - title: SaaS Backup for Salesforce 관리
+    entries:
+    - title: 백업 정책
+      url: "/reference_backup_policies.html"
+    - title: 즉시 백업 수행
+      url: "/task_performing_immediate_backup.html"
+    - title: 메타데이터 백업 설정 및 해제
+      url: "/task_enable_disable_metadata_backups.html"
+    - title: 데이터 복원 중
+      url: "/task_managing_restores.html"
+    - title: 백업 차이점 비교 및 복원
+      url: "/task_comparing_restoring.html"
+    - title: 데이터 및 메타데이터를 제거하는 중입니다
+      url: "/task_purging_data_&_metadata.html"
+    - title: 재인증 중입니다
+      url: "/task_reauthenticating.html"
+    - title: 작업을 취소합니다
+      url: "/task_canceling_job.html"
+  - title: 데이터 보기
+    entries:
+    - title: 작업 내역 보기
+      url: "/task_viewing_job_history.html"
+    - title: 활동 로그 보기
+      url: "/task_viewing_activity_log.html"
+    - title: 활동 로그 다운로드 중
+      url: "/task_downloading_activity_log.html"
+    - title: 내보내기 데이터를 다운로드하는 중입니다
+      url: "/task_downloading_export_data.html"
+    - title: 백업 레코드 보기
+      url: "/task_viewing_backup_records.html"
+  - title: 피드백 제공
+    url: "/task_providing_feedback.html"
+  - title: 도움을 받을 수 있는 곳 및 자세한 정보를 얻을 수 있는 곳
+    url: "/concept_get_help_find_info.html"
+  - title: 법적 고지
+    url: "/reference_legal_notices.html"
