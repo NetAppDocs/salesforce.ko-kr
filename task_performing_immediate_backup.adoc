@@ -8,6 +8,7 @@ summary: SaaS Backup for Salesforce를 사용하여 데이터를 백업할 수 �
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

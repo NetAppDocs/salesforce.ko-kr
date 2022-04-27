@@ -8,6 +8,7 @@ summary: 더 나은 서비스를 제공할 수 있도록 피드백을 제공합�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

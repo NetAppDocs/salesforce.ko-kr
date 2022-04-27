@@ -7,6 +7,7 @@ summary: NetApp SaaS Backup for Salesforce는 Salesforce 데이터를 Amazon S3 
 = NetApp SaaS Backup for Salesforce 개요
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

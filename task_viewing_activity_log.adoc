@@ -8,6 +8,7 @@ summary: SaaS Backup for Salesforce 내에서 수행된 모든 활동 목록을 
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

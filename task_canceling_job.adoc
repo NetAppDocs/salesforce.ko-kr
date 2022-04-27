@@ -8,6 +8,7 @@ summary: 즉시 백업 또는 복원을 취소할 수 있습니다. 예약된 �
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

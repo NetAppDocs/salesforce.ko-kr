@@ -8,6 +8,7 @@ summary: 파일로 내보내기 기능을 사용하여 첨부 파일, 결과 및
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

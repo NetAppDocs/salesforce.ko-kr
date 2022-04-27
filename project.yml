@@ -19,48 +19,6 @@ sidebar:
       url: "/concept_kpls.html"
   - title: 개요
     url: "/concept_overview.html"
-  - title: 시작하기
-    entries:
-    - title: 무료 평가판 시작하기
-      entries:
-      - title: 워크플로우
-        url: "/concept_free_trial_workflow.html"
-      - title: 무료 평가판 제한
-        url: "/reference_free_trial_restrictions.html"
-      - title: 무료 평가판 활성화 코드를 등록하는 중입니다
-        url: "/task_registering_free_trial_activation_code.html"
-      - title: Salesforce 무료 개발자 에디션 계정을 등록하는 중입니다
-        url: "/task_signing_up_free_developer.html"
-      - title: Salesforce 무료 sandbox 계정에 등록 중입니다
-        url: "/task_signing_up_free_sandbox.html"
-      - title: Salesforce 시스템 관리자 계정 만들기
-        url: "/task_creating_system_admin.html"
-      - title: BYOS 옵션에 대한 정보를 수집합니다
-        url: "/task_gather_information_byos.html"
-      - title: SaaS Backup for Salesforce 무료 평가판 등록
-        url: "/task_signing_up_free_trial.html"
-      - title: Salesforce 서비스 구성
-        url: "/task_configuring_salesforce_service.html"
-      - title: 새 운영 또는 샌드박스 인스턴스 추가
-        url: "/task_adding_new_instance.html"
-      - title: 첫 번째 백업 예약
-        url: "/scheduling_first_backup.html"
-      - title: 즉시 백업 수행
-        url: "/task_performing_immediate_backup.html"
-      - title: 무료 평가판에서 업그레이드
-        url: "/task_upgrading_from_trial.html"
-    - title: 유료 구독 시작하기
-      entries:
-      - title: 워크플로우
-        url: "/concept_paid_subscription_workflow.html"
-      - title: BYOS 옵션에 대한 정보를 수집합니다
-        url: "/task_gather_information_byos.html"
-      - title: Salesforce 시스템 관리자 계정 만들기
-        url: "/task_creating_system_admin.html"
-      - title: SaaS Backup for Salesforce의 유료 구독에 등록
-        url: "/task_signing_up_paid.html"
-      - title: 즉시 백업 수행
-        url: "/task_performing_immediate_backup.html"
   - title: SaaS Backup for Salesforce 관리
     entries:
     - title: 백업 정책
@@ -91,7 +49,7 @@ sidebar:
       url: "/task_downloading_export_data.html"
     - title: 백업 레코드 보기
       url: "/task_viewing_backup_records.html"
-  - title: 피드백 제공
+  - title: 피드백을 제공합니다
     url: "/task_providing_feedback.html"
   - title: 도움을 받을 수 있는 곳 및 자세한 정보를 얻을 수 있는 곳
     url: "/concept_get_help_find_info.html"

@@ -8,6 +8,7 @@ summary: Sandbox 또는 운영 인스턴스의 데이터가 보호된 후에는 
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

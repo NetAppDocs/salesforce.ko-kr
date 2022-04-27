@@ -8,6 +8,7 @@ summary: SaaS Backup for Salesforce는 새로운 기능, 개선 및 버그 수�
 :toc: macro
 :hardbreaks:
 :toclevels: 2
+:allow-uri-read: 
 :toc: 
 :toclevels: 2
 :nofooter: 
@@ -53,7 +54,7 @@ link:task_viewing_backup_records.html["백업 레코드 보기"]
 * SaaS Backup for Salesforce는 이제 메타데이터를 백업합니다. 이 기능 향상은 백업, 객체 및 조직 레벨 복구, 사용자가 생성한 메타데이터의 지체를 포함합니다. UI에는 메타데이터 백업을 볼 수 있는 새로운 탭 * 메타데이터 유형 및 구성 요소 * 도 있습니다. 이 페이지에서는 이 새로운 기능에 대한 자세한 정보를 제공합니다.
 +
 link:task_enable_disable_metadata_backups.html["메타데이터 활성화 및 비활성화"]
-
+link:task_managing_restores.html["데이터 복원 중"]
 
 * 2020년 10월부터 데이터를 삭제할 수 있습니다. 메타데이터는 90일 후에 자동으로 제거됩니다.
 +

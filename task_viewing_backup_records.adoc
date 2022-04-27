@@ -6,6 +6,7 @@ summary: SaaS Backup for Salesforce에서는 SaaS Backup for Salesforce에서 �
 ---
 = 백업 레코드 보기
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

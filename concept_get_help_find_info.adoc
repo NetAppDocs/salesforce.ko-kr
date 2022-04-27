@@ -7,6 +7,7 @@ summary: NetApp SaaS Backup for Salesforce 커뮤니티 포럼 및 기술 자료
 = 도움을 받을 수 있는 곳 및 자세한 정보를 얻을 수 있는 곳
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font
